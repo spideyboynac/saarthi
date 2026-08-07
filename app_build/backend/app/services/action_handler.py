@@ -1,5 +1,5 @@
 from typing import List, Optional, Dict, Any
-from app.models.schemas import ActionResponse
+from app.models.schemas import ActionResponse, RAGRequest
 from app.services.session_service import session_service
 from app.services.hybrid_router import hybrid_router
 from app.services.rag_service import dual_rag_pipeline
@@ -26,19 +26,29 @@ class ActionHandlerEngine:
                 raise ValueError("Action 1/2 requires real audio transcription input. Hardcoded mock queries are forbidden.")
             
             # Step 1: Retrieve context from Dual-RAG
-            rag_context = dual_rag_pipeline.retrieve_legal_context(query)
+            rag_req = RAGRequest(query=query, language="en")
+            rag_res = dual_rag_pipeline.retrieve_context(rag_req)
             
-            # Step 2: System prompt for legal literacy
-            system_prompt = (
-                f"You are Nyaya-Dhwani, a legal literacy conversational assistant. "
-                f"Ground your answer STRICTLY in the retrieved context:\n{rag_context['combined_context_text']}\n"
-                f"Target Literacy Tier: {session.last_answer_tier}."
-            )
-            
-            prompt = f"User Question: {query}\nProvide a clear, legally accurate answer."
-            
-            # Step 3: LLM generation via Hybrid Router
-            answer_text, llm_route = hybrid_router.generate_llm_response(prompt, system_prompt)
+            # Step 2 & 3: Branch on RAG confidence status
+            if rag_res.status == "needs_clarification":
+                answer_text = "I found some information, but I need to be sure. Could you clarify what exactly happened or who was involved?"
+                llm_route = "NONE (SOCRATIC_FALLBACK)"
+            elif rag_res.status == "abstain":
+                answer_text = "I'm sorry, but I do not have enough specific legal context to answer that safely. I am transferring you to a human legal aid volunteer."
+                llm_route = "NONE (HUMAN_HANDOFF)"
+            else:
+                # status == "sufficient"
+                context_blocks = "\n".join([f"[{p.source_citation}] {p.text}" for p in rag_res.passages])
+                
+                system_prompt = (
+                    f"You are Nyaya-Dhwani, a legal literacy conversational assistant. "
+                    f"Ground your answer STRICTLY in the retrieved context:\n{context_blocks}\n"
+                    f"You must answer ONLY using the provided context. You must cite your claims using the [Source Document] names provided.\n"
+                    f"Target Literacy Tier: {session.last_answer_tier}."
+                )
+                
+                prompt = f"User Question: {query}\nProvide a clear, legally accurate answer."
+                answer_text, llm_route = hybrid_router.generate_llm_response(prompt, system_prompt)
             
             # Update call_session state
             session_service.update_session(
@@ -83,8 +93,8 @@ class ActionHandlerEngine:
             last_text = session.last_answer_text or "[No prior answer in session — ask a question first using Action 1]"
             
             # Narrow LLM prompt operating ONLY on last_answer_text
-            system_prompt = "You are a legal literacy simplifier. Rewrite the given text using extremely simple terms, avoiding legal jargon."
-            prompt = f"Rewrite this legal explanation for a caller needing SIMPLE literacy:\n\n{last_text}"
+            system_prompt = "You are a legal literacy simplifier."
+            prompt = f"rewrite this in simpler language, same facts, no new claims:\n\n{last_text}"
             
             simplified_text, llm_route = hybrid_router.generate_llm_response(prompt, system_prompt)
             
@@ -113,16 +123,13 @@ class ActionHandlerEngine:
             last_text = session.last_answer_text or "[No prior answer in session — ask a question first using Action 1]"
             
             # Narrow LLM prompt operating ONLY on last_answer_text
-            system_prompt = "You are a Socratic legal guide. Suggest 3 short follow-up questions the caller should ask next."
-            prompt = f"Based on this legal advice:\n{last_text}\n\nList 3 recommended follow-up questions."
+            system_prompt = "You are a Socratic legal guide."
+            prompt = f"suggest 2-3 natural follow-up questions based on this advice:\n\n{last_text}"
             
             llm_text, llm_route = hybrid_router.generate_llm_response(prompt, system_prompt)
             
-            socratic_questions = [
-                "1. Where is the nearest Legal Services Authority (DLSA) office?",
-                "2. What documents or payment receipts do I need to bring as evidence?",
-                "3. How long does the consumer court or labour commission process take?"
-            ]
+            # Split the LLM output into a list of questions
+            socratic_questions = [q.strip() for q in llm_text.split('\n') if q.strip()]
 
             return ActionResponse(
                 action_code=5,

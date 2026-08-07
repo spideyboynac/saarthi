@@ -1,4 +1,8 @@
-from typing import Dict, List, Any
+from app.models.schemas import RAGRequest, RAGResponse, RAGPassage
+from app.services.rag_core.refine import RefiningRetriever
+from app.services.rag_core.router import QueryType
+from app.services.rag_core.models import ConfidenceTier
+import os
 
 class DualRAGPipeline:
     """
@@ -7,39 +11,55 @@ class DualRAGPipeline:
     2. Case Example RAG (Precedents, High Court/Supreme Court Rulings)
     """
     def __init__(self):
-        # In-memory index mock representations for dual retrieval
-        self.legal_statutes_db = [
-            {"id": "STAT_01", "title": "BNS Section 303 / IPC Section 378", "content": "Theft definition and punishment. Minimum sentence 3 years or fine."},
-            {"id": "STAT_02", "title": "Consumer Protection Act 2019 Section 35", "content": "Filing a complaint before the District Consumer Commission for defective goods or service deficiency."},
-            {"id": "STAT_03", "title": "Labour Code / Payment of Wages Act Section 15", "content": "Claims arising out of deductions from wages or delay in payment of wages."}
-        ]
-        self.case_examples_db = [
-            {"id": "CASE_01", "title": "State of MH v. Sarita (2021)", "content": "Summary procedure for wage recovery in informal worker disputes."},
-            {"id": "CASE_02", "title": "Gupta v. Electronics Ltd (2023)", "content": "Consumer court ordered full refund + compensation for non-functional appliances without warranty card."}
-        ]
+        # The vector store is located in the RAG directory
+        base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
+        vector_store_dir = os.path.join(base_dir, "RAG", "vector_store")
+        
+        # Initialize our real RefiningRetriever
+        self.retriever = RefiningRetriever(vector_store_dir, max_retries=3)
 
-    def retrieve_legal_context(self, query: str) -> Dict[str, Any]:
+    def retrieve_context(self, request: RAGRequest) -> RAGResponse:
         """
-        Retrieves context from both Legal Knowledge RAG and Case Example RAG.
+        Retrieves context using the new Dual-RAG foundation.
         """
-        # Retrieve matching statutes
-        matched_statutes = [
-            item for item in self.legal_statutes_db
-            if any(w.lower() in item["content"].lower() or w.lower() in item["title"].lower() for w in query.split())
-        ] or [self.legal_statutes_db[0]]
+        # Map route_hint to QueryType
+        query_type = QueryType.MIXED
+        if request.route_hint == "knowledge":
+            query_type = QueryType.STATUTE_LOOKUP
+        elif request.route_hint == "case":
+            query_type = QueryType.CASE_PRECEDENT
+            
+        # Execute retrieval
+        result = self.retriever.retrieve(request.query, query_type=query_type, attempt_number=1)
+        
+        # Map ConfidenceTier to requested string status
+        if result.confidence_tier == ConfidenceTier.HIGH:
+            status = "sufficient"
+        elif result.confidence_tier == ConfidenceTier.MEDIUM:
+            status = "needs_clarification"
+        else:
+            status = "abstain"
+            
+        # Map passages
+        rag_passages = []
+        for p in result.passages:
+            source = p.get("source_file", "Unknown Source")
+            doc = p.get("doc_id", "")
+            citation = f"{source} ({doc})"
+            rag_passages.append(
+                RAGPassage(
+                    text=p["text"],
+                    source_citation=citation,
+                    score=p.get("rerank_score", 0.0)
+                )
+            )
+            
+        return RAGResponse(
+            passages=rag_passages,
+            confidence=result.confidence_score,
+            status=status,
+            retry_count=result.attempt_number
+        )
 
-        # Retrieve matching case precedents
-        matched_cases = [
-            item for item in self.case_examples_db
-            if any(w.lower() in item["content"].lower() or w.lower() in item["title"].lower() for w in query.split())
-        ] or [self.case_examples_db[0]]
-
-        combined_context = f"LEGAL STATUTES: {matched_statutes[0]['title']} - {matched_statutes[0]['content']}\nCASE PRECEDENT: {matched_cases[0]['title']} - {matched_cases[0]['content']}"
-
-        return {
-            "statutes": matched_statutes,
-            "cases": matched_cases,
-            "combined_context_text": combined_context
-        }
-
+# Instantiate singleton
 dual_rag_pipeline = DualRAGPipeline()

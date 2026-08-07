@@ -1,10 +1,26 @@
 from fastapi import APIRouter, HTTPException
-from app.models.schemas import ActionRequest, ActionResponse, QueryRequest
+from app.models.schemas import ActionRequest, ActionResponse, QueryRequest, RAGRequest, RAGResponse
 from app.services.action_handler import action_handler_engine
 from app.services.session_service import session_service
 from app.services.hybrid_router import hybrid_router
+from app.services.rag_service import dual_rag_pipeline
 
 router = APIRouter(prefix="/query", tags=["Query & 6-Action API"])
+
+@router.post("/retrieve", response_model=RAGResponse)
+def retrieve_context(req: RAGRequest):
+    """
+    Direct endpoint to query the Dual-RAG retrieval engine.
+    Does NOT invoke the generative LLM.
+    """
+    if not req.query or not req.query.strip():
+        raise HTTPException(status_code=400, detail="Query cannot be empty.")
+        
+    try:
+        return dual_rag_pipeline.retrieve_context(req)
+    except Exception as e:
+        # Handle FAISS index load failures or other RAG errors
+        raise HTTPException(status_code=500, detail=f"RAG Service Error: {str(e)}")
 
 @router.post("/action", response_model=ActionResponse)
 def execute_action(req: ActionRequest):
