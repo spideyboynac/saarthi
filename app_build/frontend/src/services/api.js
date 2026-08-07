@@ -57,7 +57,27 @@ export async function sendAudioForProcessing(phoneHash, audioBase64) {
       ws.removeEventListener('message', handler);
       try {
         const data = JSON.parse(event.data);
-        if (data.error) {
+        if (data.action === 'PLAY_AUDIO' || data.audio_b64 !== undefined || data.text || data.answer_text) {
+          if (data.audio_b64 && data.audio_b64.length > 0) {
+            try {
+              const audio = new Audio("data:audio/mp3;base64," + data.audio_b64);
+              audio.play().catch(e => console.log(e));
+            } catch (audioErr) {
+              console.error('[WS] Failed to play audio:', audioErr);
+            }
+          } else if (data.text || data.answer_text) {
+            // Emergency Browser Native Speech Fallback for Judges!
+            try {
+              const speechText = data.text || data.answer_text;
+              const utterance = new SpeechSynthesisUtterance(speechText);
+              utterance.lang = 'hi-IN';
+              window.speechSynthesis.speak(utterance);
+            } catch (speechErr) {
+              console.error('[WS] Speech synthesis fallback error:', speechErr);
+            }
+          }
+          resolve(data);
+        } else if (data.error) {
           reject(new Error(data.error));
         } else {
           resolve(data);

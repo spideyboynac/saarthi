@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from typing import Optional, List
 
 class QueryRequest(BaseModel):
@@ -14,10 +14,19 @@ class ActionRequest(BaseModel):
 class ActionResponse(BaseModel):
     action_code: int
     action_name: str
+    question: Optional[str] = None
+    user_question: Optional[str] = None
+    answer: Optional[str] = None
     answer_text: str
+    sources: Optional[List[str]] = Field(default_factory=list)
+    citations: Optional[List[str]] = Field(default_factory=list)
     literacy_tier: str
     rag_executed: bool
-    llm_route: str  # CLAUDE_API or OLLAMA_LOCAL
+    rag_mode: Optional[str] = "dual"
+    llm_route: str  # CLAUDE_CLOUD or OLLAMA_LOCAL
+    confidence_score: Optional[str] = "HIGH"  # HIGH | MEDIUM | LOW | REFUSAL
+    is_first_time: bool = False
+    handoff_summary: Optional[str] = None
     socratic_followups: Optional[List[str]] = None
     call_active: bool
 
