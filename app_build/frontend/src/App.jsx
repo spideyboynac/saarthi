@@ -16,6 +16,8 @@ export default function App() {
   const [isProcessing, setIsProcessing] = useState(false);
   const [currentResponse, setCurrentResponse] = useState(null);
   const [errorMessage, setErrorMessage] = useState(null);
+  // TTS fallback indicator — true when SpeechSynthesis is active (spec §3.3)
+  const [nativeTtsActive, setNativeTtsActive] = useState(false);
 
   // Real microphone refs (Enforcement 2)
   const mediaStreamRef = useRef(null);
@@ -145,6 +147,8 @@ export default function App() {
           setLiteracyTier(res.literacy_tier);
           setLlmRoute(res.llm_route);
           setIsPlaying(true);
+          // v3.0 spec §3.3: surface native TTS indicator if ElevenLabs was unavailable
+          setNativeTtsActive(res.isTtsFallback === true);
         } catch (err) {
           setErrorMessage(`Audio processing failed: ${err.message}`);
         } finally {
@@ -179,6 +183,9 @@ export default function App() {
     if (actionCode === 6) {
       setIsRecording(false);
       setIsPlaying(false);
+      setNativeTtsActive(false);
+      // Cancel any active SpeechSynthesis utterance (spec §3.3)
+      window.speechSynthesis.cancel();
       if (mediaStreamRef.current) {
         mediaStreamRef.current.getTracks().forEach(t => t.stop());
         mediaStreamRef.current = null;
@@ -198,6 +205,7 @@ export default function App() {
     // Actions 3, 4, 5: REST API (no audio involved)
     setIsRecording(false);
     setIsPlaying(true);
+    setNativeTtsActive(false);
     try {
       const res = await sendAction(phoneHash, actionCode);
       setCurrentResponse(res);
@@ -239,6 +247,17 @@ export default function App() {
           <span className="error-icon">⚠️</span>
           <span>{errorMessage}</span>
           <button className="error-dismiss" onClick={() => setErrorMessage(null)}>✕</button>
+        </div>
+      )}
+
+      {/* Native TTS Fallback Warning (spec §3.3) */}
+      {nativeTtsActive && (
+        <div className="tts-fallback-banner">
+          <span>🔊 Using device voice (ElevenLabs unavailable)</span>
+          <button className="error-dismiss" onClick={() => {
+            window.speechSynthesis.cancel();
+            setNativeTtsActive(false);
+          }}>✕</button>
         </div>
       )}
 

@@ -53,9 +53,10 @@ class STTService:
             "Authorization": f"Token {api_key}",
             "Content-Type": "audio/webm"
         }
-        
+
         try:
-            response = httpx.post(url, headers=headers, content=audio_bytes, timeout=30.0)
+            print(f"    [STT] Sending {byte_count} bytes to Deepgram API (timeout=10s)...")
+            response = httpx.post(url, headers=headers, content=audio_bytes, timeout=10.0)
             response.raise_for_status()
             data = response.json()
             

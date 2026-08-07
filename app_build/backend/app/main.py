@@ -1,8 +1,8 @@
 import os
 from dotenv import load_dotenv
 
-# CRITICAL FIX: Load environment variables BEFORE anything else initializes
-load_dotenv() 
+# Load environment variables BEFORE anything else initializes
+load_dotenv()
 
 import json
 import logging
@@ -14,6 +14,7 @@ from app.api.query_routes import router as query_router
 from app.services.stt_service import stt_service
 from app.services.tts_service import tts_service
 from app.services.action_handler import action_handler_engine
+from app.services.session_service import session_service
 
 logger = logging.getLogger("nyaya-dhwani")
 
@@ -63,52 +64,87 @@ async def websocket_audio_endpoint(websocket: WebSocket):
                     await websocket.send_json({"error": "Missing audio_b64 field"})
                     continue
 
-                # STT Transcription
+                # ════════════════════════════════════════════════════════════
+                # STEP 1 — STT: Deepgram (Base64 → transcription text)
+                # ════════════════════════════════════════════════════════════
+                print("\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+                print("--- [STEP 1] STT — Decoding Base64 + Deepgram transcription ---")
+                print(f"    audio_b64 length: {len(audio_b64)} chars")
                 try:
                     transcription = stt_service.process_audio_b64(audio_b64)
-                    logger.info(f"[WS] STT transcription: {transcription[:80]}...")
+                    print(f"--- [STEP 1] SUCCESS — Transcription: '{transcription[:120]}'")
+                    logger.info(f"[WS] STT transcription: {transcription[:80]}")
                 except Exception as e:
+                    print(f"--- [STEP 1] FAILED — STT Error: {e}")
                     logger.error(f"[WS] STT Error: {e}")
                     await websocket.send_json({"error": f"STT Failed: {str(e)}"})
                     continue
 
-                # LLM / Dual-RAG Pipeline
+                # ════════════════════════════════════════════════════════════
+                # STEP 2–5 — IndicTrans2 (in) → Dual-RAG → LLM → IndicTrans2 (out)
+                #   All handled inside action_handler.process_action()
+                #   Individual step logs are printed inside action_handler.py
+                # ════════════════════════════════════════════════════════════
+                print("\n--- [STEP 2-5] Entering Action Handler (RAG + LLM pipeline) ---")
+                print(f"    phone_hash: {phone_hash}")
+                print(f"    transcription passed as payload: '{transcription[:120]}'")
                 try:
                     response = action_handler_engine.process_action(
                         phone_identifier=phone_hash,
                         action_code=2,
                         payload=transcription
                     )
-                    print("LLM Response:", response.answer_text)
+                    print(f"--- [STEP 2-5] SUCCESS — LLM answer ({len(response.answer_text)} chars): '{response.answer_text[:100]}'")
+                    print(f"    llm_route: {response.llm_route} | rag_executed: {response.rag_executed}")
                 except Exception as e:
+                    print(f"--- [STEP 2-5] FAILED — Action Handler Error: {e}")
                     logger.error(f"[WS] LLM Error: {e}")
                     await websocket.send_json({"error": f"LLM Processing Failed: {str(e)}"})
                     continue
-                
-                # TTS Generation
+
+                # ════════════════════════════════════════════════════════════
+                # STEP 6 — TTS: ElevenLabs (answer text → Base64 audio)
+                # ════════════════════════════════════════════════════════════
+                print("\n--- [STEP 6] TTS — ElevenLabs synthesis ---")
+                print(f"    input text length: {len(response.answer_text)} chars")
                 try:
                     audio_b64_response = tts_service.generate_tts_audio(response.answer_text)
                     if not audio_b64_response:
-                        raise ValueError("Empty audio received from TTS API")
-                    
-                    print("TTS Audio Length:", len(audio_b64_response))
-                    
+                        raise ValueError("ElevenLabs returned empty audio bytes")
+
+                    print(f"--- [STEP 6] SUCCESS — audio_b64 length: {len(audio_b64_response)} chars")
+                    logger.info(f"[WS] TTS audio generated: {len(audio_b64_response)} chars")
+
+                    # Success path — spec §3.2 step 12: action=AUDIO_RESPONSE
                     await websocket.send_json({
-                        "action": "PLAY_AUDIO",
-                        "text": response.answer_text,
+                        "action": "AUDIO_RESPONSE",
                         "audio_b64": audio_b64_response,
-                        **response.model_dump()
-                    })
-                except Exception as e:
-                    logger.error(f"[WS] TTS Error: {e}")
-                    # CRITICAL: Send empty audio_b64 so UI unfreezes and shows text
-                    await websocket.send_json({
-                        "action": "PLAY_AUDIO",
                         "text": response.answer_text,
-                        "audio_b64": "",
-                        "error": "TTS Failed",
-                        **response.model_dump()
+                        "sources": response.sources or [],
+                        "literacy_tier": response.literacy_tier,
+                        "rag_executed": response.rag_executed,
+                        "llm_route": response.llm_route,
                     })
+                    print("--- [STEP 6] AUDIO_RESPONSE sent to frontend ✓")
+                    print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n")
+
+                except Exception as e:
+                    print(f"--- [STEP 6] FAILED — TTS Error: {e}")
+                    logger.error(f"[WS] TTS Error: {e}")
+                    # Fallback path — spec §3.3: action=TTS_FALLBACK, NO audio_b64 field.
+                    # Frontend must invoke window.speechSynthesis.speak() on this message.
+                    await websocket.send_json({
+                        "action": "TTS_FALLBACK",
+                        "text": response.answer_text,
+                        "sources": response.sources or [],
+                        "literacy_tier": response.literacy_tier,
+                        "rag_executed": response.rag_executed,
+                        "llm_route": response.llm_route,
+                        "error": "TTS_UNAVAILABLE",
+                    })
+                    print("--- [STEP 6] TTS_FALLBACK sent to frontend ✓")
+                    print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n")
+
 
             else:
                 # Non-audio actions (3, 4, 5, 6)
@@ -126,29 +162,36 @@ async def websocket_audio_endpoint(websocket: WebSocket):
                         await websocket.send_json({"error": f"LLM Processing Failed: {str(e)}"})
                         continue
                     
-                    # TTS Generation for Numpad Actions
+                    # TTS Generation for non-audio actions (3, 4, 5)
                     try:
                         audio_b64_response = tts_service.generate_tts_audio(response.answer_text)
                         if not audio_b64_response:
                             raise ValueError("Empty audio received from TTS API")
-                            
-                        print("TTS Audio Length:", len(audio_b64_response))
 
+                        logger.info(f"[WS] TTS audio generated: {len(audio_b64_response)} chars")
+
+                        # Success path — spec §3.2 step 12: action=AUDIO_RESPONSE
                         await websocket.send_json({
-                            "action": "PLAY_AUDIO",
-                            "text": response.answer_text,
+                            "action": "AUDIO_RESPONSE",
                             "audio_b64": audio_b64_response,
-                            **response.model_dump()
+                            "text": response.answer_text,
+                            "sources": response.sources or [],
+                            "literacy_tier": response.literacy_tier,
+                            "rag_executed": response.rag_executed,
+                            "llm_route": response.llm_route,
                         })
                     except Exception as e:
                         logger.error(f"[WS] TTS Error: {e}")
-                        # CRITICAL: Send empty audio_b64 so UI unfreezes
+                        # Fallback path — spec §3.3: action=TTS_FALLBACK, NO audio_b64 field.
+                        # Frontend must invoke window.speechSynthesis.speak() on this message.
                         await websocket.send_json({
-                            "action": "PLAY_AUDIO",
+                            "action": "TTS_FALLBACK",
                             "text": response.answer_text,
-                            "audio_b64": "",
-                            "error": "TTS Failed",
-                            **response.model_dump()
+                            "sources": response.sources or [],
+                            "literacy_tier": response.literacy_tier,
+                            "rag_executed": response.rag_executed,
+                            "llm_route": response.llm_route,
+                            "error": "TTS_UNAVAILABLE",
                         })
                 else:
                     await websocket.send_json({"error": f"Unknown action: {action}"})

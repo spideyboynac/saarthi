@@ -6,7 +6,7 @@ class ConfidenceScorer:
     Evaluates the reranked candidate pool to determine a confidence tier.
     Thresholds are exposed for external UX tuning.
     """
-    def __init__(self, high_threshold: float = 2.0, medium_threshold: float = 0.0):
+    def __init__(self, high_threshold: float = 0.0, medium_threshold: float = -3.0):
         self.high_threshold = high_threshold
         self.medium_threshold = medium_threshold
 

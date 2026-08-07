@@ -47,7 +47,8 @@ class TTSService:
         }
         
         try:
-            response = httpx.post(url, headers=headers, json=payload, timeout=30.0)
+            print(f"    [TTS] Sending {len(text)} chars to ElevenLabs API (timeout=15s)...")
+            response = httpx.post(url, headers=headers, json=payload, timeout=15.0)
             response.raise_for_status()
             
             audio_bytes = response.content

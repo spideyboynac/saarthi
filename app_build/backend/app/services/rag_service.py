@@ -33,11 +33,15 @@ class DualRAGPipeline:
         result = self.retriever.retrieve(request.query, query_type=query_type, attempt_number=1)
         
         # Map ConfidenceTier to requested string status
+        # HIGH  (score >= 0.0)  → sufficient         → full LLM generation
+        # MEDIUM (score >= -3.0) → needs_clarification → Socratic followup
+        # LOW   (score < -3.0)  → needs_clarification → still try, but note uncertainty
+        # NONE  (no passages)   → abstain             → human handoff
         if result.confidence_tier == ConfidenceTier.HIGH:
             status = "sufficient"
-        elif result.confidence_tier == ConfidenceTier.MEDIUM:
+        elif result.confidence_tier in (ConfidenceTier.MEDIUM, ConfidenceTier.LOW):
             status = "needs_clarification"
-        else:
+        else:  # ConfidenceTier.NONE — zero passages returned
             status = "abstain"
             
         # Map passages

@@ -9,8 +9,8 @@ class RefiningRetriever:
     Wraps the unified retriever with bounded retry logic and confidence scoring.
     This exposes the final contract to the downstream orchestration layer.
     """
-    def __init__(self, vector_store_dir: str, max_retries: int = 3, 
-                 high_threshold: float = 2.0, medium_threshold: float = 0.0):
+    def __init__(self, vector_store_dir: str, max_retries: int = 3,
+                 high_threshold: float = 0.0, medium_threshold: float = -3.0):
         self.retriever = UnifiedRetriever(vector_store_dir)
         self.scorer = ConfidenceScorer(high_threshold, medium_threshold)
         self.max_retries = max_retries

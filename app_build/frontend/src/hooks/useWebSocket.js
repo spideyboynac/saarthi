@@ -4,7 +4,11 @@
  * Manages the persistent WebSocket connection to ws://localhost:8000/ws/audio
  * and exposes a one-shot send-and-receive function for audio processing.
  *
- * NO MOCK DATA. If the backend is unreachable, errors propagate to the caller.
+ * v3.0 WebSocket Contract (spec §3.2 / §3.3):
+ *   AUDIO_RESPONSE  → decode audio_b64 → Web Audio API playback
+ *   TTS_FALLBACK    → window.speechSynthesis.speak(), surfaces isTtsFallback=true
+ *
+ * ZERO MOCK DATA: no hardcoded audio or text. Errors propagate to the caller.
  */
 
 import { useRef, useCallback, useEffect } from 'react';
@@ -48,41 +52,68 @@ export default function useWebSocket() {
       };
 
       ws.onmessage = (event) => {
-        // Route the response to the pending promise
-        if (pendingResolveRef.current) {
-          try {
-            const data = JSON.parse(event.data);
-            if (data.action === 'PLAY_AUDIO' || data.audio_b64 !== undefined || data.text || data.answer_text) {
-              if (data.audio_b64 && data.audio_b64.length > 0) {
-                try {
-                  const audio = new Audio("data:audio/mp3;base64," + data.audio_b64);
-                  audio.play().catch(e => console.log(e));
-                } catch (audioErr) {
-                  console.error('[useWebSocket] Failed to play audio:', audioErr);
-                }
-              } else if (data.text || data.answer_text) {
-                // Emergency Browser Native Speech Fallback for Judges!
-                try {
-                  const speechText = data.text || data.answer_text;
-                  const utterance = new SpeechSynthesisUtterance(speechText);
-                  utterance.lang = 'hi-IN'; // or 'en-IN'
-                  window.speechSynthesis.speak(utterance);
-                } catch (speechErr) {
-                  console.error('[useWebSocket] Speech synthesis fallback error:', speechErr);
-                }
+        if (!pendingResolveRef.current) return;
+
+        try {
+          const data = JSON.parse(event.data);
+
+          // ─────────────────────────────────────────────────────────────
+          // AUDIO_RESPONSE (spec §3.2 step 12)
+          // Backend synthesised audio successfully via ElevenLabs.
+          // Decode Base64 → play via Web Audio API.
+          // ─────────────────────────────────────────────────────────────
+          if (data.action === 'AUDIO_RESPONSE') {
+            if (data.audio_b64 && data.audio_b64.length > 0) {
+              try {
+                const audio = new Audio('data:audio/mp3;base64,' + data.audio_b64);
+                audio.play().catch(e => console.error('[useWebSocket] Audio playback error:', e));
+              } catch (audioErr) {
+                console.error('[useWebSocket] Failed to construct Audio:', audioErr);
               }
-              pendingResolveRef.current(data);
-            } else if (data.error) {
-              pendingRejectRef.current(new Error(data.error));
-            } else {
-              pendingResolveRef.current(data);
             }
-          } catch (e) {
-            pendingRejectRef.current(new Error('Failed to parse WebSocket response'));
+            // Resolve with the full response payload for state update
+            pendingResolveRef.current({ ...data, isTtsFallback: false });
+
+          // ─────────────────────────────────────────────────────────────
+          // TTS_FALLBACK (spec §3.3)
+          // ElevenLabs is unavailable. No audio_b64 is present.
+          // Trigger browser native SpeechSynthesis and surface the
+          // fallback flag so App.jsx can show the warning indicator.
+          // ─────────────────────────────────────────────────────────────
+          } else if (data.action === 'TTS_FALLBACK') {
+            try {
+              // Cancel any currently speaking utterance before starting a new one
+              window.speechSynthesis.cancel();
+              const utterance = new SpeechSynthesisUtterance(data.text);
+              utterance.lang = 'hi-IN';
+              utterance.onerror = (e) => console.error('[useWebSocket] SpeechSynthesis error:', e);
+              window.speechSynthesis.speak(utterance);
+            } catch (speechErr) {
+              console.error('[useWebSocket] SpeechSynthesis fallback error:', speechErr);
+            }
+            // Resolve with isTtsFallback=true so App.jsx shows the indicator
+            pendingResolveRef.current({ ...data, isTtsFallback: true });
+
+          // ─────────────────────────────────────────────────────────────
+          // Error from backend (bad payload, STT failure, etc.)
+          // ─────────────────────────────────────────────────────────────
+          } else if (data.error) {
+            pendingRejectRef.current(new Error(data.error));
+
+          // ─────────────────────────────────────────────────────────────
+          // Other backend messages (e.g., connection acknowledgements)
+          // ─────────────────────────────────────────────────────────────
+          } else {
+            pendingResolveRef.current(data);
           }
-          pendingResolveRef.current = null;
-          pendingRejectRef.current = null;
+
+        } catch (e) {
+          pendingRejectRef.current(new Error('Failed to parse WebSocket response'));
         }
+
+        // Clear pending refs after each resolved/rejected message
+        pendingResolveRef.current = null;
+        pendingRejectRef.current = null;
       };
     });
   }, []);
@@ -90,6 +121,9 @@ export default function useWebSocket() {
   /**
    * Sends Base64-encoded audio for processing and awaits the response.
    * JSON format: {"action": "PROCESS_AUDIO", "audio_b64": "<base64>", "phone_hash": "..."}
+   *
+   * Resolves with the full ActionResponse payload plus:
+   *   - isTtsFallback: boolean — true if SpeechSynthesis was used instead of ElevenLabs
    *
    * @param {string} phoneHash - Caller identifier
    * @param {string} audioBase64 - Base64-encoded audio blob (from FileReader.readAsDataURL)
@@ -99,23 +133,28 @@ export default function useWebSocket() {
     const ws = await connect();
 
     return new Promise((resolve, reject) => {
-      pendingResolveRef.current = resolve;
+      // Store refs before setting up the timeout-clearing wrapper
       pendingRejectRef.current = reject;
 
-      ws.send(JSON.stringify({
-        action: "PROCESS_AUDIO",
-        audio_b64: audioBase64,
-        phone_hash: phoneHash
-      }));
-
-      // Timeout after 30 seconds
-      setTimeout(() => {
+      const timeoutId = setTimeout(() => {
         if (pendingRejectRef.current) {
-          pendingRejectRef.current(new Error('Audio processing timed out (30s)'));
+          pendingRejectRef.current(new Error('Audio processing timed out (45s). The pipeline may still be running.'));
           pendingResolveRef.current = null;
           pendingRejectRef.current = null;
         }
-      }, 30000);
+      }, 45000);
+
+      // Wrap resolve to clear the timeout when the message arrives
+      pendingResolveRef.current = (value) => {
+        clearTimeout(timeoutId);
+        resolve(value);
+      };
+
+      ws.send(JSON.stringify({
+        action: 'PROCESS_AUDIO',
+        audio_b64: audioBase64,
+        phone_hash: phoneHash
+      }));
     });
   }, [connect]);
 

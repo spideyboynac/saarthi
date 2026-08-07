@@ -1,9 +1,10 @@
 /**
- * Nyaya-Dhwani API Client — v2.1 (NO MOCK DATA)
- * 
- * Enforcement 1: ALL mock response functions have been DELETED.
- * Enforcement 3: Action 2 sends audio via WebSocket as Base64.
- * 
+ * Nyaya-Dhwani API Client — v3.0 (ZERO MOCK DATA)
+ *
+ * v3.0 WebSocket Contract:
+ *   AUDIO_RESPONSE  → decode audio_b64 → Web Audio API playback
+ *   TTS_FALLBACK    → window.speechSynthesis.speak(), isTtsFallback=true
+ *
  * Audio path:  getUserMedia → MediaRecorder → Blob → Base64 → WebSocket
  * Other actions: REST POST /api/v1/query/action
  */
@@ -47,6 +48,9 @@ function getAudioWebSocket() {
 /**
  * Sends Base64-encoded audio over WebSocket and waits for the response.
  * Exact JSON format: {"action": "PROCESS_AUDIO", "audio_b64": "<base64_string>"}
+ *
+ * Resolves with the full ActionResponse payload plus:
+ *   isTtsFallback: boolean — true if SpeechSynthesis was used instead of ElevenLabs
  */
 export async function sendAudioForProcessing(phoneHash, audioBase64) {
   const ws = await getAudioWebSocket();
@@ -57,26 +61,39 @@ export async function sendAudioForProcessing(phoneHash, audioBase64) {
       ws.removeEventListener('message', handler);
       try {
         const data = JSON.parse(event.data);
-        if (data.action === 'PLAY_AUDIO' || data.audio_b64 !== undefined || data.text || data.answer_text) {
+
+        // ───────────────────────────────────────────────────────────────
+        // AUDIO_RESPONSE (spec §3.2 step 12)
+        // ElevenLabs TTS succeeded. Decode audio_b64 → Web Audio playback.
+        // ───────────────────────────────────────────────────────────────
+        if (data.action === 'AUDIO_RESPONSE') {
           if (data.audio_b64 && data.audio_b64.length > 0) {
             try {
-              const audio = new Audio("data:audio/mp3;base64," + data.audio_b64);
-              audio.play().catch(e => console.log(e));
+              const audio = new Audio('data:audio/mp3;base64,' + data.audio_b64);
+              audio.play().catch(e => console.error('[api.js] Audio playback error:', e));
             } catch (audioErr) {
-              console.error('[WS] Failed to play audio:', audioErr);
-            }
-          } else if (data.text || data.answer_text) {
-            // Emergency Browser Native Speech Fallback for Judges!
-            try {
-              const speechText = data.text || data.answer_text;
-              const utterance = new SpeechSynthesisUtterance(speechText);
-              utterance.lang = 'hi-IN';
-              window.speechSynthesis.speak(utterance);
-            } catch (speechErr) {
-              console.error('[WS] Speech synthesis fallback error:', speechErr);
+              console.error('[api.js] Failed to construct Audio:', audioErr);
             }
           }
-          resolve(data);
+          resolve({ ...data, isTtsFallback: false });
+
+        // ───────────────────────────────────────────────────────────────
+        // TTS_FALLBACK (spec §3.3)
+        // ElevenLabs is unavailable — no audio_b64 field present.
+        // Trigger browser native SpeechSynthesis.
+        // ───────────────────────────────────────────────────────────────
+        } else if (data.action === 'TTS_FALLBACK') {
+          try {
+            window.speechSynthesis.cancel();
+            const utterance = new SpeechSynthesisUtterance(data.text);
+            utterance.lang = 'hi-IN';
+            utterance.onerror = (e) => console.error('[api.js] SpeechSynthesis error:', e);
+            window.speechSynthesis.speak(utterance);
+          } catch (speechErr) {
+            console.error('[api.js] SpeechSynthesis fallback error:', speechErr);
+          }
+          resolve({ ...data, isTtsFallback: true });
+
         } else if (data.error) {
           reject(new Error(data.error));
         } else {
@@ -89,9 +106,9 @@ export async function sendAudioForProcessing(phoneHash, audioBase64) {
 
     ws.addEventListener('message', handler);
 
-    // Enforcement 3: Exact JSON format as specified
+    // Spec §3.2 step 3: exact JSON format
     ws.send(JSON.stringify({
-      action: "PROCESS_AUDIO",
+      action: 'PROCESS_AUDIO',
       audio_b64: audioBase64,
       phone_hash: phoneHash
     }));
