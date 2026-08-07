@@ -29,3 +29,22 @@ class ActionResponse(BaseModel):
     handoff_summary: Optional[str] = None
     socratic_followups: Optional[List[str]] = None
     call_active: bool
+
+class RAGPassage(BaseModel):
+    """Represents a single retrieved chunk with citation."""
+    text: str
+    source_citation: str
+    score: float
+
+class RAGRequest(BaseModel):
+    """The strict input contract for querying the RAG service."""
+    query: str
+    language: str
+    route_hint: Optional[str] = None
+
+class RAGResponse(BaseModel):
+    """The strict output contract returned by the RAG service."""
+    passages: List[RAGPassage]
+    confidence: float
+    status: str  # "sufficient" | "needs_clarification" | "abstain"
+    retry_count: int
