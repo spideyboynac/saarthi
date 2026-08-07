@@ -1,16 +1,33 @@
 import os
-from sentence_transformers import CrossEncoder
 from app.services.rag_core.router import QueryType, get_target_collections
 from app.services.rag_core.embedder import embed_query
 from app.services.rag_core.index_manager import IndexManager
+
+# Lazy import — sentence_transformers is optional; fall back to word-overlap
+try:
+    from sentence_transformers import CrossEncoder as _CEClass
+    _CE_AVAILABLE = True
+except ImportError:
+    _CEClass = None
+    _CE_AVAILABLE = False
 
 _cross_encoder = None
 
 def get_cross_encoder():
     global _cross_encoder
+    if not _CE_AVAILABLE:
+        return None
     if _cross_encoder is None:
-        _cross_encoder = CrossEncoder('cross-encoder/ms-marco-MiniLM-L-6-v2')
+        _cross_encoder = _CEClass('cross-encoder/ms-marco-MiniLM-L-6-v2')
     return _cross_encoder
+
+def _word_overlap_score(query: str, text: str) -> float:
+    """Fallback scorer when CrossEncoder is unavailable."""
+    q_words = set(query.lower().split())
+    t_words = set(text.lower().split())
+    if not q_words:
+        return 0.0
+    return len(q_words & t_words) / len(q_words)
 
 class UnifiedRetriever:
     def __init__(self, vector_store_dir: str):
@@ -32,19 +49,19 @@ class UnifiedRetriever:
             
         if not candidates:
             return []
-            
-        # 3. Cross-Encoder Reranking
+
+        # 3. Cross-Encoder Reranking (or word-overlap fallback)
         cross_encoder = get_cross_encoder()
-        
-        # Create (query, text) pairs for the cross-encoder
-        cross_inp = [[query, candidate["text"]] for candidate in candidates]
-        scores = cross_encoder.predict(cross_inp)
-        
-        # Attach rerank score to candidates
-        for idx, score in enumerate(scores):
-            candidates[idx]["rerank_score"] = float(score)
+        if cross_encoder is not None:
+            cross_inp = [[query, candidate["text"]] for candidate in candidates]
+            scores = cross_encoder.predict(cross_inp)
+            for idx, score in enumerate(scores):
+                candidates[idx]["rerank_score"] = float(score)
+        else:
+            for candidate in candidates:
+                candidate["rerank_score"] = _word_overlap_score(query, candidate.get("text", ""))
             
-        # 4. Sort globally by cross-encoder score descending
+        # 4. Sort globally by rerank score descending
         candidates.sort(key=lambda x: x["rerank_score"], reverse=True)
         
         # 5. Cut to top-5 post-rerank
