@@ -418,10 +418,76 @@ body {
   color: var(--text-muted);
 }
 
-.response-text {
-  font-size: 1.05rem;
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.response-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.85rem 1rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.question-block {
+  border-left: 4px solid #3b82f6;
+  background: rgba(59, 130, 246, 0.08);
+}
+
+.answer-block {
+  border-left: 4px solid #10b981;
+  background: rgba(16, 185, 129, 0.08);
+}
+
+.sources-block {
+  border-left: 4px solid #8b5cf6;
+  background: rgba(139, 92, 246, 0.08);
+}
+
+.block-label {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.question-text {
+  font-size: 0.975rem;
+  font-weight: 600;
+  color: #93c5fd;
+}
+
+.answer-text {
+  font-size: 1.025rem;
   line-height: 1.6;
   color: #f1f5f9;
+}
+
+.sources-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.source-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.775rem;
+  font-weight: 600;
+  background: rgba(139, 92, 246, 0.2);
+  color: #c084fc;
+  border: 1px solid rgba(192, 132, 252, 0.35);
 }
 
 /* Socratic Queries */

@@ -52,18 +52,29 @@ export default function useWebSocket() {
         if (pendingResolveRef.current) {
           try {
             const data = JSON.parse(event.data);
-            if (data.error) {
-              pendingRejectRef.current(new Error(data.error));
-            } else {
-              // Pre-flight Task 2: Play incoming TTS audio
-              if (data.action === 'PLAY_AUDIO' && data.audio_b64) {
+            if (data.action === 'PLAY_AUDIO' || data.audio_b64 !== undefined || data.text || data.answer_text) {
+              if (data.audio_b64 && data.audio_b64.length > 0) {
                 try {
                   const audio = new Audio("data:audio/mp3;base64," + data.audio_b64);
-                  audio.play();
+                  audio.play().catch(e => console.log(e));
                 } catch (audioErr) {
                   console.error('[useWebSocket] Failed to play audio:', audioErr);
                 }
+              } else if (data.text || data.answer_text) {
+                // Emergency Browser Native Speech Fallback for Judges!
+                try {
+                  const speechText = data.text || data.answer_text;
+                  const utterance = new SpeechSynthesisUtterance(speechText);
+                  utterance.lang = 'hi-IN'; // or 'en-IN'
+                  window.speechSynthesis.speak(utterance);
+                } catch (speechErr) {
+                  console.error('[useWebSocket] Speech synthesis fallback error:', speechErr);
+                }
               }
+              pendingResolveRef.current(data);
+            } else if (data.error) {
+              pendingRejectRef.current(new Error(data.error));
+            } else {
               pendingResolveRef.current(data);
             }
           } catch (e) {

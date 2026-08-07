@@ -48,7 +48,7 @@ class STTService:
         
         logger.info(f"[STT] Transcribing {byte_count} bytes using Deepgram...")
         
-        url = "https://api.deepgram.com/v1/listen?model=nova-2&language=hi"
+        url = "https://api.deepgram.com/v1/listen?model=nova-2&detect_language=true"
         headers = {
             "Authorization": f"Token {api_key}",
             "Content-Type": "audio/webm"

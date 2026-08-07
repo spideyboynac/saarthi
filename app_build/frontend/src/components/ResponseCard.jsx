@@ -9,7 +9,23 @@ export default function ResponseCard({ response, onSelectFollowup }) {
     );
   }
 
-  const { action_name, answer_text, literacy_tier, rag_executed, llm_route, socratic_followups } = response;
+  const {
+    action_name,
+    question,
+    user_question,
+    answer,
+    answer_text,
+    sources,
+    citations,
+    literacy_tier,
+    rag_executed,
+    llm_route,
+    socratic_followups
+  } = response;
+
+  const displayQuestion = question || user_question;
+  const displayAnswer = answer || answer_text;
+  const displaySources = (sources && sources.length > 0) ? sources : (citations || []);
 
   return (
     <div className="response-card">
@@ -24,7 +40,33 @@ export default function ResponseCard({ response, onSelectFollowup }) {
       </div>
 
       <div className="card-body">
-        <p className="response-text">{answer_text}</p>
+        {/* 1. Question Block */}
+        {displayQuestion && (
+          <div className="response-block question-block">
+            <div className="block-label">💬 Question:</div>
+            <p className="question-text">{displayQuestion}</p>
+          </div>
+        )}
+
+        {/* 2. Answer Block */}
+        <div className="response-block answer-block">
+          <div className="block-label">⚖️ Legal Explanation:</div>
+          <p className="answer-text">{displayAnswer}</p>
+        </div>
+
+        {/* 3. Sources Block */}
+        {displaySources && displaySources.length > 0 && (
+          <div className="response-block sources-block">
+            <div className="block-label">📜 Verified Sources:</div>
+            <div className="sources-list">
+              {displaySources.map((src, idx) => (
+                <span key={idx} className="source-pill">
+                  📌 {src}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
 
       {socratic_followups && socratic_followups.length > 0 && (
