@@ -1,0 +1,2502 @@
+[
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application filed under the protection of women from domestic violence act seeking protection orders, monetary relief, and right to shared household following emotional cruelty and physical exclusion. respondents argued independent living status. district court issued protection and residence orders based on proof of marital residence. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0001",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : complaint alleging persistent demands for motor vehicles and cash post - marriage accompanied by social isolation and harassment. high court reviewed corroborative statements from local residents, medical records, and communication records to evaluate cruelty and dowry demands. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0002",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : deserted spouse and minor child sought monthly maintenance under statutory provisions ( crpc section 125 / bnss section 144 ). respondent claimed lack of regular income despite holding 12 bighas of agricultural land. supreme court assessed imputed earning capacity based on asset ownership and awarded monthly maintenance. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0003",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : custody dispute over a 7 - year - old child following marital separation. father highlighted higher financial earnings, while mother demonstrated primary caregiving history and stable emotional environment. district court ruled that paramount welfare of the minor child overrides financial superiority alone. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0004",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : school teacher reported inappropriate physical gestures and verbal harassment by a senior administrator. employer failed to constitute an internal complaints committee as required under posh legislation. high court issued directions for setting up a compliant committee and interim protective transfer. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0005",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : urgent prayer for protection order prohibiting an estranged spouse from approaching the applicant's workplace or residence during ongoing matrimonial litigation. supreme court granted restraining orders enforcing non - contact and physical protection. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0006",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition seeking recovery of stridhan properties, including gold ornaments and financial gifts, retained by in - laws after separation. district court re - affirmed that stridhan is the exclusive property of the woman and directed full restitution. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0007",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition filed for restitution of conjugal rights following marital separation. respondent proved reasonable excuse based on continuous verbal cruelty and financial neglect. high court dismissed restitution prayer. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0008",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application seeking enhancement of interim maintenance due to rising educational costs of minor children and medical expenses. supreme court verified respondent's revised income tax returns and enhanced monthly maintenance grant. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0009",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : aggrieved woman evicted from shared matrimonial home by in - laws during husband's overseas absence. district court enforced statutory right of residence under domestic violence laws, ordering immediate re - entry and police protection. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0010",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition for dissolution of marriage on ground of continuous desertion for over 2 years without reasonable cause. high court evaluated witness testimonies establishing intentional abandonment and granted decree. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0011",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application filed under the protection of women from domestic violence act seeking protection orders, monetary relief, and right to shared household following emotional cruelty and physical exclusion. respondents argued independent living status. supreme court issued protection and residence orders based on proof of marital residence. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0012",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : complaint alleging persistent demands for motor vehicles and cash post - marriage accompanied by social isolation and harassment. district court reviewed corroborative statements from local residents, medical records, and communication records to evaluate cruelty and dowry demands. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0013",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : deserted spouse and minor child sought monthly maintenance under statutory provisions ( crpc section 125 / bnss section 144 ). respondent claimed lack of regular income despite holding 5 bighas of agricultural land. high court assessed imputed earning capacity based on asset ownership and awarded monthly maintenance. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0014",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : custody dispute over a 7 - year - old child following marital separation. father highlighted higher financial earnings, while mother demonstrated primary caregiving history and stable emotional environment. supreme court ruled that paramount welfare of the minor child overrides financial superiority alone. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0015",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : school teacher reported inappropriate physical gestures and verbal harassment by a senior administrator. employer failed to constitute an internal complaints committee as required under posh legislation. district court issued directions for setting up a compliant committee and interim protective transfer. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0016",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : urgent prayer for protection order prohibiting an estranged spouse from approaching the applicant's workplace or residence during ongoing matrimonial litigation. high court granted restraining orders enforcing non - contact and physical protection. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0017",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition seeking recovery of stridhan properties, including gold ornaments and financial gifts, retained by in - laws after separation. supreme court re - affirmed that stridhan is the exclusive property of the woman and directed full restitution. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0018",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition filed for restitution of conjugal rights following marital separation. respondent proved reasonable excuse based on continuous verbal cruelty and financial neglect. district court dismissed restitution prayer. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0019",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application seeking enhancement of interim maintenance due to rising educational costs of minor children and medical expenses. high court verified respondent's revised income tax returns and enhanced monthly maintenance grant. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0020",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : aggrieved woman evicted from shared matrimonial home by in - laws during husband's overseas absence. supreme court enforced statutory right of residence under domestic violence laws, ordering immediate re - entry and police protection. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0021",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition for dissolution of marriage on ground of continuous desertion for over 2 years without reasonable cause. district court evaluated witness testimonies establishing intentional abandonment and granted decree. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0022",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application filed under the protection of women from domestic violence act seeking protection orders, monetary relief, and right to shared household following emotional cruelty and physical exclusion. respondents argued independent living status. high court issued protection and residence orders based on proof of marital residence. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0023",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : complaint alleging persistent demands for motor vehicles and cash post - marriage accompanied by social isolation and harassment. supreme court reviewed corroborative statements from local residents, medical records, and communication records to evaluate cruelty and dowry demands. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0024",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : deserted spouse and minor child sought monthly maintenance under statutory provisions ( crpc section 125 / bnss section 144 ). respondent claimed lack of regular income despite holding 0. 8 acres of agricultural land. district court assessed imputed earning capacity based on asset ownership and awarded monthly maintenance. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0025",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : custody dispute over a 7 - year - old child following marital separation. father highlighted higher financial earnings, while mother demonstrated primary caregiving history and stable emotional environment. high court ruled that paramount welfare of the minor child overrides financial superiority alone. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0026",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : school teacher reported inappropriate physical gestures and verbal harassment by a senior administrator. employer failed to constitute an internal complaints committee as required under posh legislation. supreme court issued directions for setting up a compliant committee and interim protective transfer. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0027",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : urgent prayer for protection order prohibiting an estranged spouse from approaching the applicant's workplace or residence during ongoing matrimonial litigation. district court granted restraining orders enforcing non - contact and physical protection. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0028",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition seeking recovery of stridhan properties, including gold ornaments and financial gifts, retained by in - laws after separation. high court re - affirmed that stridhan is the exclusive property of the woman and directed full restitution. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0029",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition filed for restitution of conjugal rights following marital separation. respondent proved reasonable excuse based on continuous verbal cruelty and financial neglect. supreme court dismissed restitution prayer. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0030",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application seeking enhancement of interim maintenance due to rising educational costs of minor children and medical expenses. district court verified respondent's revised income tax returns and enhanced monthly maintenance grant. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0031",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : aggrieved woman evicted from shared matrimonial home by in - laws during husband's overseas absence. high court enforced statutory right of residence under domestic violence laws, ordering immediate re - entry and police protection. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0032",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition for dissolution of marriage on ground of continuous desertion for over 2 years without reasonable cause. supreme court evaluated witness testimonies establishing intentional abandonment and granted decree. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0033",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application filed under the protection of women from domestic violence act seeking protection orders, monetary relief, and right to shared household following emotional cruelty and physical exclusion. respondents argued independent living status. district court issued protection and residence orders based on proof of marital residence. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0034",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : complaint alleging persistent demands for motor vehicles and cash post - marriage accompanied by social isolation and harassment. high court reviewed corroborative statements from local residents, medical records, and communication records to evaluate cruelty and dowry demands. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0035",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : deserted spouse and minor child sought monthly maintenance under statutory provisions ( crpc section 125 / bnss section 144 ). respondent claimed lack of regular income despite holding 2. 5 acres of agricultural land. supreme court assessed imputed earning capacity based on asset ownership and awarded monthly maintenance. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0036",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : custody dispute over a 7 - year - old child following marital separation. father highlighted higher financial earnings, while mother demonstrated primary caregiving history and stable emotional environment. district court ruled that paramount welfare of the minor child overrides financial superiority alone. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0037",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : school teacher reported inappropriate physical gestures and verbal harassment by a senior administrator. employer failed to constitute an internal complaints committee as required under posh legislation. high court issued directions for setting up a compliant committee and interim protective transfer. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0038",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : urgent prayer for protection order prohibiting an estranged spouse from approaching the applicant's workplace or residence during ongoing matrimonial litigation. supreme court granted restraining orders enforcing non - contact and physical protection. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0039",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition seeking recovery of stridhan properties, including gold ornaments and financial gifts, retained by in - laws after separation. district court re - affirmed that stridhan is the exclusive property of the woman and directed full restitution. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0040",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition filed for restitution of conjugal rights following marital separation. respondent proved reasonable excuse based on continuous verbal cruelty and financial neglect. high court dismissed restitution prayer. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0041",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application seeking enhancement of interim maintenance due to rising educational costs of minor children and medical expenses. supreme court verified respondent's revised income tax returns and enhanced monthly maintenance grant. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0042",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : aggrieved woman evicted from shared matrimonial home by in - laws during husband's overseas absence. district court enforced statutory right of residence under domestic violence laws, ordering immediate re - entry and police protection. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0043",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition for dissolution of marriage on ground of continuous desertion for over 2 years without reasonable cause. high court evaluated witness testimonies establishing intentional abandonment and granted decree. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0044",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application filed under the protection of women from domestic violence act seeking protection orders, monetary relief, and right to shared household following emotional cruelty and physical exclusion. respondents argued independent living status. supreme court issued protection and residence orders based on proof of marital residence. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0045",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : complaint alleging persistent demands for motor vehicles and cash post - marriage accompanied by social isolation and harassment. district court reviewed corroborative statements from local residents, medical records, and communication records to evaluate cruelty and dowry demands. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0046",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : deserted spouse and minor child sought monthly maintenance under statutory provisions ( crpc section 125 / bnss section 144 ). respondent claimed lack of regular income despite holding 5 bighas of agricultural land. high court assessed imputed earning capacity based on asset ownership and awarded monthly maintenance. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0047",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : custody dispute over a 7 - year - old child following marital separation. father highlighted higher financial earnings, while mother demonstrated primary caregiving history and stable emotional environment. supreme court ruled that paramount welfare of the minor child overrides financial superiority alone. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0048",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : school teacher reported inappropriate physical gestures and verbal harassment by a senior administrator. employer failed to constitute an internal complaints committee as required under posh legislation. district court issued directions for setting up a compliant committee and interim protective transfer. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0049",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : urgent prayer for protection order prohibiting an estranged spouse from approaching the applicant's workplace or residence during ongoing matrimonial litigation. high court granted restraining orders enforcing non - contact and physical protection. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0050",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition seeking recovery of stridhan properties, including gold ornaments and financial gifts, retained by in - laws after separation. supreme court re - affirmed that stridhan is the exclusive property of the woman and directed full restitution. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0051",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition filed for restitution of conjugal rights following marital separation. respondent proved reasonable excuse based on continuous verbal cruelty and financial neglect. district court dismissed restitution prayer. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0052",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application seeking enhancement of interim maintenance due to rising educational costs of minor children and medical expenses. high court verified respondent's revised income tax returns and enhanced monthly maintenance grant. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0053",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : aggrieved woman evicted from shared matrimonial home by in - laws during husband's overseas absence. supreme court enforced statutory right of residence under domestic violence laws, ordering immediate re - entry and police protection. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0054",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition for dissolution of marriage on ground of continuous desertion for over 2 years without reasonable cause. district court evaluated witness testimonies establishing intentional abandonment and granted decree. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0055",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application filed under the protection of women from domestic violence act seeking protection orders, monetary relief, and right to shared household following emotional cruelty and physical exclusion. respondents argued independent living status. high court issued protection and residence orders based on proof of marital residence. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0056",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : complaint alleging persistent demands for motor vehicles and cash post - marriage accompanied by social isolation and harassment. supreme court reviewed corroborative statements from local residents, medical records, and communication records to evaluate cruelty and dowry demands. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0057",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : deserted spouse and minor child sought monthly maintenance under statutory provisions ( crpc section 125 / bnss section 144 ). respondent claimed lack of regular income despite holding 4. 0 acres of agricultural land. district court assessed imputed earning capacity based on asset ownership and awarded monthly maintenance. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0058",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : custody dispute over a 7 - year - old child following marital separation. father highlighted higher financial earnings, while mother demonstrated primary caregiving history and stable emotional environment. high court ruled that paramount welfare of the minor child overrides financial superiority alone. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0059",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : school teacher reported inappropriate physical gestures and verbal harassment by a senior administrator. employer failed to constitute an internal complaints committee as required under posh legislation. supreme court issued directions for setting up a compliant committee and interim protective transfer. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0060",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : urgent prayer for protection order prohibiting an estranged spouse from approaching the applicant's workplace or residence during ongoing matrimonial litigation. district court granted restraining orders enforcing non - contact and physical protection. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0061",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition seeking recovery of stridhan properties, including gold ornaments and financial gifts, retained by in - laws after separation. high court re - affirmed that stridhan is the exclusive property of the woman and directed full restitution. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0062",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition filed for restitution of conjugal rights following marital separation. respondent proved reasonable excuse based on continuous verbal cruelty and financial neglect. supreme court dismissed restitution prayer. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0063",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application seeking enhancement of interim maintenance due to rising educational costs of minor children and medical expenses. district court verified respondent's revised income tax returns and enhanced monthly maintenance grant. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0064",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : aggrieved woman evicted from shared matrimonial home by in - laws during husband's overseas absence. high court enforced statutory right of residence under domestic violence laws, ordering immediate re - entry and police protection. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0065",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition for dissolution of marriage on ground of continuous desertion for over 2 years without reasonable cause. supreme court evaluated witness testimonies establishing intentional abandonment and granted decree. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0066",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application filed under the protection of women from domestic violence act seeking protection orders, monetary relief, and right to shared household following emotional cruelty and physical exclusion. respondents argued independent living status. district court issued protection and residence orders based on proof of marital residence. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0067",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : complaint alleging persistent demands for motor vehicles and cash post - marriage accompanied by social isolation and harassment. high court reviewed corroborative statements from local residents, medical records, and communication records to evaluate cruelty and dowry demands. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0068",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : deserted spouse and minor child sought monthly maintenance under statutory provisions ( crpc section 125 / bnss section 144 ). respondent claimed lack of regular income despite holding 1. 2 acres of agricultural land. supreme court assessed imputed earning capacity based on asset ownership and awarded monthly maintenance. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0069",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : custody dispute over a 7 - year - old child following marital separation. father highlighted higher financial earnings, while mother demonstrated primary caregiving history and stable emotional environment. district court ruled that paramount welfare of the minor child overrides financial superiority alone. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0070",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : school teacher reported inappropriate physical gestures and verbal harassment by a senior administrator. employer failed to constitute an internal complaints committee as required under posh legislation. high court issued directions for setting up a compliant committee and interim protective transfer. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0071",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : urgent prayer for protection order prohibiting an estranged spouse from approaching the applicant's workplace or residence during ongoing matrimonial litigation. supreme court granted restraining orders enforcing non - contact and physical protection. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0072",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition seeking recovery of stridhan properties, including gold ornaments and financial gifts, retained by in - laws after separation. district court re - affirmed that stridhan is the exclusive property of the woman and directed full restitution. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0073",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition filed for restitution of conjugal rights following marital separation. respondent proved reasonable excuse based on continuous verbal cruelty and financial neglect. high court dismissed restitution prayer. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0074",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application seeking enhancement of interim maintenance due to rising educational costs of minor children and medical expenses. supreme court verified respondent's revised income tax returns and enhanced monthly maintenance grant. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0075",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : aggrieved woman evicted from shared matrimonial home by in - laws during husband's overseas absence. district court enforced statutory right of residence under domestic violence laws, ordering immediate re - entry and police protection. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0076",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition for dissolution of marriage on ground of continuous desertion for over 2 years without reasonable cause. high court evaluated witness testimonies establishing intentional abandonment and granted decree. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0077",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application filed under the protection of women from domestic violence act seeking protection orders, monetary relief, and right to shared household following emotional cruelty and physical exclusion. respondents argued independent living status. supreme court issued protection and residence orders based on proof of marital residence. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0078",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : complaint alleging persistent demands for motor vehicles and cash post - marriage accompanied by social isolation and harassment. district court reviewed corroborative statements from local residents, medical records, and communication records to evaluate cruelty and dowry demands. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0079",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : deserted spouse and minor child sought monthly maintenance under statutory provisions ( crpc section 125 / bnss section 144 ). respondent claimed lack of regular income despite holding 12 bighas of agricultural land. high court assessed imputed earning capacity based on asset ownership and awarded monthly maintenance. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0080",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : custody dispute over a 7 - year - old child following marital separation. father highlighted higher financial earnings, while mother demonstrated primary caregiving history and stable emotional environment. supreme court ruled that paramount welfare of the minor child overrides financial superiority alone. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0081",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : school teacher reported inappropriate physical gestures and verbal harassment by a senior administrator. employer failed to constitute an internal complaints committee as required under posh legislation. district court issued directions for setting up a compliant committee and interim protective transfer. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0082",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : urgent prayer for protection order prohibiting an estranged spouse from approaching the applicant's workplace or residence during ongoing matrimonial litigation. high court granted restraining orders enforcing non - contact and physical protection. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0083",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition seeking recovery of stridhan properties, including gold ornaments and financial gifts, retained by in - laws after separation. supreme court re - affirmed that stridhan is the exclusive property of the woman and directed full restitution. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0084",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition filed for restitution of conjugal rights following marital separation. respondent proved reasonable excuse based on continuous verbal cruelty and financial neglect. district court dismissed restitution prayer. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0085",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application seeking enhancement of interim maintenance due to rising educational costs of minor children and medical expenses. high court verified respondent's revised income tax returns and enhanced monthly maintenance grant. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0086",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : aggrieved woman evicted from shared matrimonial home by in - laws during husband's overseas absence. supreme court enforced statutory right of residence under domestic violence laws, ordering immediate re - entry and police protection. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0087",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition for dissolution of marriage on ground of continuous desertion for over 2 years without reasonable cause. district court evaluated witness testimonies establishing intentional abandonment and granted decree. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0088",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application filed under the protection of women from domestic violence act seeking protection orders, monetary relief, and right to shared household following emotional cruelty and physical exclusion. respondents argued independent living status. high court issued protection and residence orders based on proof of marital residence. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0089",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : complaint alleging persistent demands for motor vehicles and cash post - marriage accompanied by social isolation and harassment. supreme court reviewed corroborative statements from local residents, medical records, and communication records to evaluate cruelty and dowry demands. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0090",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : deserted spouse and minor child sought monthly maintenance under statutory provisions ( crpc section 125 / bnss section 144 ). respondent claimed lack of regular income despite holding 0. 8 acres of agricultural land. district court assessed imputed earning capacity based on asset ownership and awarded monthly maintenance. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0091",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : custody dispute over a 7 - year - old child following marital separation. father highlighted higher financial earnings, while mother demonstrated primary caregiving history and stable emotional environment. high court ruled that paramount welfare of the minor child overrides financial superiority alone. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0092",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : school teacher reported inappropriate physical gestures and verbal harassment by a senior administrator. employer failed to constitute an internal complaints committee as required under posh legislation. supreme court issued directions for setting up a compliant committee and interim protective transfer. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0093",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : urgent prayer for protection order prohibiting an estranged spouse from approaching the applicant's workplace or residence during ongoing matrimonial litigation. district court granted restraining orders enforcing non - contact and physical protection. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0094",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition seeking recovery of stridhan properties, including gold ornaments and financial gifts, retained by in - laws after separation. high court re - affirmed that stridhan is the exclusive property of the woman and directed full restitution. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0095",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition filed for restitution of conjugal rights following marital separation. respondent proved reasonable excuse based on continuous verbal cruelty and financial neglect. supreme court dismissed restitution prayer. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0096",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application seeking enhancement of interim maintenance due to rising educational costs of minor children and medical expenses. district court verified respondent's revised income tax returns and enhanced monthly maintenance grant. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0097",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : aggrieved woman evicted from shared matrimonial home by in - laws during husband's overseas absence. high court enforced statutory right of residence under domestic violence laws, ordering immediate re - entry and police protection. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0098",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition for dissolution of marriage on ground of continuous desertion for over 2 years without reasonable cause. supreme court evaluated witness testimonies establishing intentional abandonment and granted decree. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0099",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application filed under the protection of women from domestic violence act seeking protection orders, monetary relief, and right to shared household following emotional cruelty and physical exclusion. respondents argued independent living status. district court issued protection and residence orders based on proof of marital residence. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0100",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : complaint alleging persistent demands for motor vehicles and cash post - marriage accompanied by social isolation and harassment. high court reviewed corroborative statements from local residents, medical records, and communication records to evaluate cruelty and dowry demands. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0101",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : deserted spouse and minor child sought monthly maintenance under statutory provisions ( crpc section 125 / bnss section 144 ). respondent claimed lack of regular income despite holding 2. 0 bighas of agricultural land. supreme court assessed imputed earning capacity based on asset ownership and awarded monthly maintenance. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0102",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : custody dispute over a 7 - year - old child following marital separation. father highlighted higher financial earnings, while mother demonstrated primary caregiving history and stable emotional environment. district court ruled that paramount welfare of the minor child overrides financial superiority alone. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0103",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : school teacher reported inappropriate physical gestures and verbal harassment by a senior administrator. employer failed to constitute an internal complaints committee as required under posh legislation. high court issued directions for setting up a compliant committee and interim protective transfer. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0104",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : urgent prayer for protection order prohibiting an estranged spouse from approaching the applicant's workplace or residence during ongoing matrimonial litigation. supreme court granted restraining orders enforcing non - contact and physical protection. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0105",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition seeking recovery of stridhan properties, including gold ornaments and financial gifts, retained by in - laws after separation. district court re - affirmed that stridhan is the exclusive property of the woman and directed full restitution. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0106",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition filed for restitution of conjugal rights following marital separation. respondent proved reasonable excuse based on continuous verbal cruelty and financial neglect. high court dismissed restitution prayer. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0107",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application seeking enhancement of interim maintenance due to rising educational costs of minor children and medical expenses. supreme court verified respondent's revised income tax returns and enhanced monthly maintenance grant. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0108",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : aggrieved woman evicted from shared matrimonial home by in - laws during husband's overseas absence. district court enforced statutory right of residence under domestic violence laws, ordering immediate re - entry and police protection. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0109",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition for dissolution of marriage on ground of continuous desertion for over 2 years without reasonable cause. high court evaluated witness testimonies establishing intentional abandonment and granted decree. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0110",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application filed under the protection of women from domestic violence act seeking protection orders, monetary relief, and right to shared household following emotional cruelty and physical exclusion. respondents argued independent living status. supreme court issued protection and residence orders based on proof of marital residence. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0111",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : complaint alleging persistent demands for motor vehicles and cash post - marriage accompanied by social isolation and harassment. district court reviewed corroborative statements from local residents, medical records, and communication records to evaluate cruelty and dowry demands. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0112",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : deserted spouse and minor child sought monthly maintenance under statutory provisions ( crpc section 125 / bnss section 144 ). respondent claimed lack of regular income despite holding 2. 0 bighas of agricultural land. high court assessed imputed earning capacity based on asset ownership and awarded monthly maintenance. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0113",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : custody dispute over a 7 - year - old child following marital separation. father highlighted higher financial earnings, while mother demonstrated primary caregiving history and stable emotional environment. supreme court ruled that paramount welfare of the minor child overrides financial superiority alone. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0114",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : school teacher reported inappropriate physical gestures and verbal harassment by a senior administrator. employer failed to constitute an internal complaints committee as required under posh legislation. district court issued directions for setting up a compliant committee and interim protective transfer. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0115",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : urgent prayer for protection order prohibiting an estranged spouse from approaching the applicant's workplace or residence during ongoing matrimonial litigation. high court granted restraining orders enforcing non - contact and physical protection. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0116",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition seeking recovery of stridhan properties, including gold ornaments and financial gifts, retained by in - laws after separation. supreme court re - affirmed that stridhan is the exclusive property of the woman and directed full restitution. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0117",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition filed for restitution of conjugal rights following marital separation. respondent proved reasonable excuse based on continuous verbal cruelty and financial neglect. district court dismissed restitution prayer. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0118",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application seeking enhancement of interim maintenance due to rising educational costs of minor children and medical expenses. high court verified respondent's revised income tax returns and enhanced monthly maintenance grant. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0119",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : aggrieved woman evicted from shared matrimonial home by in - laws during husband's overseas absence. supreme court enforced statutory right of residence under domestic violence laws, ordering immediate re - entry and police protection. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0120",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition for dissolution of marriage on ground of continuous desertion for over 2 years without reasonable cause. district court evaluated witness testimonies establishing intentional abandonment and granted decree. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0121",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application filed under the protection of women from domestic violence act seeking protection orders, monetary relief, and right to shared household following emotional cruelty and physical exclusion. respondents argued independent living status. high court issued protection and residence orders based on proof of marital residence. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0122",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : complaint alleging persistent demands for motor vehicles and cash post - marriage accompanied by social isolation and harassment. supreme court reviewed corroborative statements from local residents, medical records, and communication records to evaluate cruelty and dowry demands. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0123",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : deserted spouse and minor child sought monthly maintenance under statutory provisions ( crpc section 125 / bnss section 144 ). respondent claimed lack of regular income despite holding 0. 8 acres of agricultural land. district court assessed imputed earning capacity based on asset ownership and awarded monthly maintenance. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0124",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : custody dispute over a 7 - year - old child following marital separation. father highlighted higher financial earnings, while mother demonstrated primary caregiving history and stable emotional environment. high court ruled that paramount welfare of the minor child overrides financial superiority alone. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0125",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : school teacher reported inappropriate physical gestures and verbal harassment by a senior administrator. employer failed to constitute an internal complaints committee as required under posh legislation. supreme court issued directions for setting up a compliant committee and interim protective transfer. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0126",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : urgent prayer for protection order prohibiting an estranged spouse from approaching the applicant's workplace or residence during ongoing matrimonial litigation. district court granted restraining orders enforcing non - contact and physical protection. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0127",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition seeking recovery of stridhan properties, including gold ornaments and financial gifts, retained by in - laws after separation. high court re - affirmed that stridhan is the exclusive property of the woman and directed full restitution. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0128",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition filed for restitution of conjugal rights following marital separation. respondent proved reasonable excuse based on continuous verbal cruelty and financial neglect. supreme court dismissed restitution prayer. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0129",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application seeking enhancement of interim maintenance due to rising educational costs of minor children and medical expenses. district court verified respondent's revised income tax returns and enhanced monthly maintenance grant. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0130",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : aggrieved woman evicted from shared matrimonial home by in - laws during husband's overseas absence. high court enforced statutory right of residence under domestic violence laws, ordering immediate re - entry and police protection. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0131",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition for dissolution of marriage on ground of continuous desertion for over 2 years without reasonable cause. supreme court evaluated witness testimonies establishing intentional abandonment and granted decree. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0132",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application filed under the protection of women from domestic violence act seeking protection orders, monetary relief, and right to shared household following emotional cruelty and physical exclusion. respondents argued independent living status. district court issued protection and residence orders based on proof of marital residence. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0133",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : complaint alleging persistent demands for motor vehicles and cash post - marriage accompanied by social isolation and harassment. high court reviewed corroborative statements from local residents, medical records, and communication records to evaluate cruelty and dowry demands. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0134",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : deserted spouse and minor child sought monthly maintenance under statutory provisions ( crpc section 125 / bnss section 144 ). respondent claimed lack of regular income despite holding 1. 2 acres of agricultural land. supreme court assessed imputed earning capacity based on asset ownership and awarded monthly maintenance. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0135",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : custody dispute over a 7 - year - old child following marital separation. father highlighted higher financial earnings, while mother demonstrated primary caregiving history and stable emotional environment. district court ruled that paramount welfare of the minor child overrides financial superiority alone. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0136",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : school teacher reported inappropriate physical gestures and verbal harassment by a senior administrator. employer failed to constitute an internal complaints committee as required under posh legislation. high court issued directions for setting up a compliant committee and interim protective transfer. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0137",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : urgent prayer for protection order prohibiting an estranged spouse from approaching the applicant's workplace or residence during ongoing matrimonial litigation. supreme court granted restraining orders enforcing non - contact and physical protection. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0138",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition seeking recovery of stridhan properties, including gold ornaments and financial gifts, retained by in - laws after separation. district court re - affirmed that stridhan is the exclusive property of the woman and directed full restitution. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0139",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition filed for restitution of conjugal rights following marital separation. respondent proved reasonable excuse based on continuous verbal cruelty and financial neglect. high court dismissed restitution prayer. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0140",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application seeking enhancement of interim maintenance due to rising educational costs of minor children and medical expenses. supreme court verified respondent's revised income tax returns and enhanced monthly maintenance grant. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0141",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : aggrieved woman evicted from shared matrimonial home by in - laws during husband's overseas absence. district court enforced statutory right of residence under domestic violence laws, ordering immediate re - entry and police protection. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0142",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition for dissolution of marriage on ground of continuous desertion for over 2 years without reasonable cause. high court evaluated witness testimonies establishing intentional abandonment and granted decree. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0143",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application filed under the protection of women from domestic violence act seeking protection orders, monetary relief, and right to shared household following emotional cruelty and physical exclusion. respondents argued independent living status. supreme court issued protection and residence orders based on proof of marital residence. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0144",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : complaint alleging persistent demands for motor vehicles and cash post - marriage accompanied by social isolation and harassment. district court reviewed corroborative statements from local residents, medical records, and communication records to evaluate cruelty and dowry demands. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0145",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : deserted spouse and minor child sought monthly maintenance under statutory provisions ( crpc section 125 / bnss section 144 ). respondent claimed lack of regular income despite holding 5 bighas of agricultural land. high court assessed imputed earning capacity based on asset ownership and awarded monthly maintenance. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0146",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : custody dispute over a 7 - year - old child following marital separation. father highlighted higher financial earnings, while mother demonstrated primary caregiving history and stable emotional environment. supreme court ruled that paramount welfare of the minor child overrides financial superiority alone. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0147",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : school teacher reported inappropriate physical gestures and verbal harassment by a senior administrator. employer failed to constitute an internal complaints committee as required under posh legislation. district court issued directions for setting up a compliant committee and interim protective transfer. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0148",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : urgent prayer for protection order prohibiting an estranged spouse from approaching the applicant's workplace or residence during ongoing matrimonial litigation. high court granted restraining orders enforcing non - contact and physical protection. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0149",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition seeking recovery of stridhan properties, including gold ornaments and financial gifts, retained by in - laws after separation. supreme court re - affirmed that stridhan is the exclusive property of the woman and directed full restitution. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0150",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition filed for restitution of conjugal rights following marital separation. respondent proved reasonable excuse based on continuous verbal cruelty and financial neglect. district court dismissed restitution prayer. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0151",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application seeking enhancement of interim maintenance due to rising educational costs of minor children and medical expenses. high court verified respondent's revised income tax returns and enhanced monthly maintenance grant. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0152",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : aggrieved woman evicted from shared matrimonial home by in - laws during husband's overseas absence. supreme court enforced statutory right of residence under domestic violence laws, ordering immediate re - entry and police protection. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0153",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition for dissolution of marriage on ground of continuous desertion for over 2 years without reasonable cause. district court evaluated witness testimonies establishing intentional abandonment and granted decree. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0154",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application filed under the protection of women from domestic violence act seeking protection orders, monetary relief, and right to shared household following emotional cruelty and physical exclusion. respondents argued independent living status. high court issued protection and residence orders based on proof of marital residence. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0155",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : complaint alleging persistent demands for motor vehicles and cash post - marriage accompanied by social isolation and harassment. supreme court reviewed corroborative statements from local residents, medical records, and communication records to evaluate cruelty and dowry demands. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0156",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : deserted spouse and minor child sought monthly maintenance under statutory provisions ( crpc section 125 / bnss section 144 ). respondent claimed lack of regular income despite holding 5 bighas of agricultural land. district court assessed imputed earning capacity based on asset ownership and awarded monthly maintenance. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0157",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : custody dispute over a 7 - year - old child following marital separation. father highlighted higher financial earnings, while mother demonstrated primary caregiving history and stable emotional environment. high court ruled that paramount welfare of the minor child overrides financial superiority alone. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0158",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : school teacher reported inappropriate physical gestures and verbal harassment by a senior administrator. employer failed to constitute an internal complaints committee as required under posh legislation. supreme court issued directions for setting up a compliant committee and interim protective transfer. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0159",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : urgent prayer for protection order prohibiting an estranged spouse from approaching the applicant's workplace or residence during ongoing matrimonial litigation. district court granted restraining orders enforcing non - contact and physical protection. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0160",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition seeking recovery of stridhan properties, including gold ornaments and financial gifts, retained by in - laws after separation. high court re - affirmed that stridhan is the exclusive property of the woman and directed full restitution. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0161",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition filed for restitution of conjugal rights following marital separation. respondent proved reasonable excuse based on continuous verbal cruelty and financial neglect. supreme court dismissed restitution prayer. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0162",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application seeking enhancement of interim maintenance due to rising educational costs of minor children and medical expenses. district court verified respondent's revised income tax returns and enhanced monthly maintenance grant. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0163",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : aggrieved woman evicted from shared matrimonial home by in - laws during husband's overseas absence. high court enforced statutory right of residence under domestic violence laws, ordering immediate re - entry and police protection. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0164",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition for dissolution of marriage on ground of continuous desertion for over 2 years without reasonable cause. supreme court evaluated witness testimonies establishing intentional abandonment and granted decree. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0165",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application filed under the protection of women from domestic violence act seeking protection orders, monetary relief, and right to shared household following emotional cruelty and physical exclusion. respondents argued independent living status. district court issued protection and residence orders based on proof of marital residence. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0166",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : complaint alleging persistent demands for motor vehicles and cash post - marriage accompanied by social isolation and harassment. high court reviewed corroborative statements from local residents, medical records, and communication records to evaluate cruelty and dowry demands. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0167",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : deserted spouse and minor child sought monthly maintenance under statutory provisions ( crpc section 125 / bnss section 144 ). respondent claimed lack of regular income despite holding 2. 0 bighas of agricultural land. supreme court assessed imputed earning capacity based on asset ownership and awarded monthly maintenance. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0168",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : custody dispute over a 7 - year - old child following marital separation. father highlighted higher financial earnings, while mother demonstrated primary caregiving history and stable emotional environment. district court ruled that paramount welfare of the minor child overrides financial superiority alone. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0169",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : school teacher reported inappropriate physical gestures and verbal harassment by a senior administrator. employer failed to constitute an internal complaints committee as required under posh legislation. high court issued directions for setting up a compliant committee and interim protective transfer. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0170",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : urgent prayer for protection order prohibiting an estranged spouse from approaching the applicant's workplace or residence during ongoing matrimonial litigation. supreme court granted restraining orders enforcing non - contact and physical protection. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0171",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition seeking recovery of stridhan properties, including gold ornaments and financial gifts, retained by in - laws after separation. district court re - affirmed that stridhan is the exclusive property of the woman and directed full restitution. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0172",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition filed for restitution of conjugal rights following marital separation. respondent proved reasonable excuse based on continuous verbal cruelty and financial neglect. high court dismissed restitution prayer. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0173",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application seeking enhancement of interim maintenance due to rising educational costs of minor children and medical expenses. supreme court verified respondent's revised income tax returns and enhanced monthly maintenance grant. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0174",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : aggrieved woman evicted from shared matrimonial home by in - laws during husband's overseas absence. district court enforced statutory right of residence under domestic violence laws, ordering immediate re - entry and police protection. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0175",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition for dissolution of marriage on ground of continuous desertion for over 2 years without reasonable cause. high court evaluated witness testimonies establishing intentional abandonment and granted decree. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0176",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application filed under the protection of women from domestic violence act seeking protection orders, monetary relief, and right to shared household following emotional cruelty and physical exclusion. respondents argued independent living status. supreme court issued protection and residence orders based on proof of marital residence. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0177",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : complaint alleging persistent demands for motor vehicles and cash post - marriage accompanied by social isolation and harassment. district court reviewed corroborative statements from local residents, medical records, and communication records to evaluate cruelty and dowry demands. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0178",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : deserted spouse and minor child sought monthly maintenance under statutory provisions ( crpc section 125 / bnss section 144 ). respondent claimed lack of regular income despite holding 2. 0 bighas of agricultural land. high court assessed imputed earning capacity based on asset ownership and awarded monthly maintenance. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0179",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : custody dispute over a 7 - year - old child following marital separation. father highlighted higher financial earnings, while mother demonstrated primary caregiving history and stable emotional environment. supreme court ruled that paramount welfare of the minor child overrides financial superiority alone. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0180",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : school teacher reported inappropriate physical gestures and verbal harassment by a senior administrator. employer failed to constitute an internal complaints committee as required under posh legislation. district court issued directions for setting up a compliant committee and interim protective transfer. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0181",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : urgent prayer for protection order prohibiting an estranged spouse from approaching the applicant's workplace or residence during ongoing matrimonial litigation. high court granted restraining orders enforcing non - contact and physical protection. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0182",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition seeking recovery of stridhan properties, including gold ornaments and financial gifts, retained by in - laws after separation. supreme court re - affirmed that stridhan is the exclusive property of the woman and directed full restitution. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0183",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition filed for restitution of conjugal rights following marital separation. respondent proved reasonable excuse based on continuous verbal cruelty and financial neglect. district court dismissed restitution prayer. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0184",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application seeking enhancement of interim maintenance due to rising educational costs of minor children and medical expenses. high court verified respondent's revised income tax returns and enhanced monthly maintenance grant. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0185",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : aggrieved woman evicted from shared matrimonial home by in - laws during husband's overseas absence. supreme court enforced statutory right of residence under domestic violence laws, ordering immediate re - entry and police protection. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0186",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition for dissolution of marriage on ground of continuous desertion for over 2 years without reasonable cause. district court evaluated witness testimonies establishing intentional abandonment and granted decree. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0187",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application filed under the protection of women from domestic violence act seeking protection orders, monetary relief, and right to shared household following emotional cruelty and physical exclusion. respondents argued independent living status. high court issued protection and residence orders based on proof of marital residence. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0188",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : complaint alleging persistent demands for motor vehicles and cash post - marriage accompanied by social isolation and harassment. supreme court reviewed corroborative statements from local residents, medical records, and communication records to evaluate cruelty and dowry demands. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0189",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : deserted spouse and minor child sought monthly maintenance under statutory provisions ( crpc section 125 / bnss section 144 ). respondent claimed lack of regular income despite holding 4. 0 acres of agricultural land. district court assessed imputed earning capacity based on asset ownership and awarded monthly maintenance. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0190",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : custody dispute over a 7 - year - old child following marital separation. father highlighted higher financial earnings, while mother demonstrated primary caregiving history and stable emotional environment. high court ruled that paramount welfare of the minor child overrides financial superiority alone. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0191",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : school teacher reported inappropriate physical gestures and verbal harassment by a senior administrator. employer failed to constitute an internal complaints committee as required under posh legislation. supreme court issued directions for setting up a compliant committee and interim protective transfer. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0192",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : urgent prayer for protection order prohibiting an estranged spouse from approaching the applicant's workplace or residence during ongoing matrimonial litigation. district court granted restraining orders enforcing non - contact and physical protection. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0193",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition seeking recovery of stridhan properties, including gold ornaments and financial gifts, retained by in - laws after separation. high court re - affirmed that stridhan is the exclusive property of the woman and directed full restitution. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0194",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition filed for restitution of conjugal rights following marital separation. respondent proved reasonable excuse based on continuous verbal cruelty and financial neglect. supreme court dismissed restitution prayer. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0195",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application seeking enhancement of interim maintenance due to rising educational costs of minor children and medical expenses. district court verified respondent's revised income tax returns and enhanced monthly maintenance grant. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0196",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : aggrieved woman evicted from shared matrimonial home by in - laws during husband's overseas absence. high court enforced statutory right of residence under domestic violence laws, ordering immediate re - entry and police protection. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0197",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition for dissolution of marriage on ground of continuous desertion for over 2 years without reasonable cause. supreme court evaluated witness testimonies establishing intentional abandonment and granted decree. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0198",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application filed under the protection of women from domestic violence act seeking protection orders, monetary relief, and right to shared household following emotional cruelty and physical exclusion. respondents argued independent living status. district court issued protection and residence orders based on proof of marital residence. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0199",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : complaint alleging persistent demands for motor vehicles and cash post - marriage accompanied by social isolation and harassment. high court reviewed corroborative statements from local residents, medical records, and communication records to evaluate cruelty and dowry demands. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0200",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : deserted spouse and minor child sought monthly maintenance under statutory provisions ( crpc section 125 / bnss section 144 ). respondent claimed lack of regular income despite holding 2. 5 acres of agricultural land. supreme court assessed imputed earning capacity based on asset ownership and awarded monthly maintenance. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0201",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : custody dispute over a 7 - year - old child following marital separation. father highlighted higher financial earnings, while mother demonstrated primary caregiving history and stable emotional environment. district court ruled that paramount welfare of the minor child overrides financial superiority alone. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0202",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : school teacher reported inappropriate physical gestures and verbal harassment by a senior administrator. employer failed to constitute an internal complaints committee as required under posh legislation. high court issued directions for setting up a compliant committee and interim protective transfer. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0203",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : urgent prayer for protection order prohibiting an estranged spouse from approaching the applicant's workplace or residence during ongoing matrimonial litigation. supreme court granted restraining orders enforcing non - contact and physical protection. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0204",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition seeking recovery of stridhan properties, including gold ornaments and financial gifts, retained by in - laws after separation. district court re - affirmed that stridhan is the exclusive property of the woman and directed full restitution. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0205",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition filed for restitution of conjugal rights following marital separation. respondent proved reasonable excuse based on continuous verbal cruelty and financial neglect. high court dismissed restitution prayer. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0206",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application seeking enhancement of interim maintenance due to rising educational costs of minor children and medical expenses. supreme court verified respondent's revised income tax returns and enhanced monthly maintenance grant. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0207",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : aggrieved woman evicted from shared matrimonial home by in - laws during husband's overseas absence. district court enforced statutory right of residence under domestic violence laws, ordering immediate re - entry and police protection. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0208",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition for dissolution of marriage on ground of continuous desertion for over 2 years without reasonable cause. high court evaluated witness testimonies establishing intentional abandonment and granted decree. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0209",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application filed under the protection of women from domestic violence act seeking protection orders, monetary relief, and right to shared household following emotional cruelty and physical exclusion. respondents argued independent living status. supreme court issued protection and residence orders based on proof of marital residence. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0210",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : complaint alleging persistent demands for motor vehicles and cash post - marriage accompanied by social isolation and harassment. district court reviewed corroborative statements from local residents, medical records, and communication records to evaluate cruelty and dowry demands. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0211",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : deserted spouse and minor child sought monthly maintenance under statutory provisions ( crpc section 125 / bnss section 144 ). respondent claimed lack of regular income despite holding 2. 0 bighas of agricultural land. high court assessed imputed earning capacity based on asset ownership and awarded monthly maintenance. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0212",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : custody dispute over a 7 - year - old child following marital separation. father highlighted higher financial earnings, while mother demonstrated primary caregiving history and stable emotional environment. supreme court ruled that paramount welfare of the minor child overrides financial superiority alone. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0213",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : school teacher reported inappropriate physical gestures and verbal harassment by a senior administrator. employer failed to constitute an internal complaints committee as required under posh legislation. district court issued directions for setting up a compliant committee and interim protective transfer. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0214",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : urgent prayer for protection order prohibiting an estranged spouse from approaching the applicant's workplace or residence during ongoing matrimonial litigation. high court granted restraining orders enforcing non - contact and physical protection. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0215",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition seeking recovery of stridhan properties, including gold ornaments and financial gifts, retained by in - laws after separation. supreme court re - affirmed that stridhan is the exclusive property of the woman and directed full restitution. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0216",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition filed for restitution of conjugal rights following marital separation. respondent proved reasonable excuse based on continuous verbal cruelty and financial neglect. district court dismissed restitution prayer. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0217",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application seeking enhancement of interim maintenance due to rising educational costs of minor children and medical expenses. high court verified respondent's revised income tax returns and enhanced monthly maintenance grant. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0218",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : aggrieved woman evicted from shared matrimonial home by in - laws during husband's overseas absence. supreme court enforced statutory right of residence under domestic violence laws, ordering immediate re - entry and police protection. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0219",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition for dissolution of marriage on ground of continuous desertion for over 2 years without reasonable cause. district court evaluated witness testimonies establishing intentional abandonment and granted decree. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0220",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application filed under the protection of women from domestic violence act seeking protection orders, monetary relief, and right to shared household following emotional cruelty and physical exclusion. respondents argued independent living status. high court issued protection and residence orders based on proof of marital residence. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0221",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : complaint alleging persistent demands for motor vehicles and cash post - marriage accompanied by social isolation and harassment. supreme court reviewed corroborative statements from local residents, medical records, and communication records to evaluate cruelty and dowry demands. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0222",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : deserted spouse and minor child sought monthly maintenance under statutory provisions ( crpc section 125 / bnss section 144 ). respondent claimed lack of regular income despite holding 2. 0 bighas of agricultural land. district court assessed imputed earning capacity based on asset ownership and awarded monthly maintenance. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0223",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : custody dispute over a 7 - year - old child following marital separation. father highlighted higher financial earnings, while mother demonstrated primary caregiving history and stable emotional environment. high court ruled that paramount welfare of the minor child overrides financial superiority alone. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0224",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : school teacher reported inappropriate physical gestures and verbal harassment by a senior administrator. employer failed to constitute an internal complaints committee as required under posh legislation. supreme court issued directions for setting up a compliant committee and interim protective transfer. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0225",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : urgent prayer for protection order prohibiting an estranged spouse from approaching the applicant's workplace or residence during ongoing matrimonial litigation. district court granted restraining orders enforcing non - contact and physical protection. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0226",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition seeking recovery of stridhan properties, including gold ornaments and financial gifts, retained by in - laws after separation. high court re - affirmed that stridhan is the exclusive property of the woman and directed full restitution. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0227",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition filed for restitution of conjugal rights following marital separation. respondent proved reasonable excuse based on continuous verbal cruelty and financial neglect. supreme court dismissed restitution prayer. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0228",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application seeking enhancement of interim maintenance due to rising educational costs of minor children and medical expenses. district court verified respondent's revised income tax returns and enhanced monthly maintenance grant. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0229",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : aggrieved woman evicted from shared matrimonial home by in - laws during husband's overseas absence. high court enforced statutory right of residence under domestic violence laws, ordering immediate re - entry and police protection. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0230",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition for dissolution of marriage on ground of continuous desertion for over 2 years without reasonable cause. supreme court evaluated witness testimonies establishing intentional abandonment and granted decree. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0231",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application filed under the protection of women from domestic violence act seeking protection orders, monetary relief, and right to shared household following emotional cruelty and physical exclusion. respondents argued independent living status. district court issued protection and residence orders based on proof of marital residence. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0232",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : complaint alleging persistent demands for motor vehicles and cash post - marriage accompanied by social isolation and harassment. high court reviewed corroborative statements from local residents, medical records, and communication records to evaluate cruelty and dowry demands. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0233",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : deserted spouse and minor child sought monthly maintenance under statutory provisions ( crpc section 125 / bnss section 144 ). respondent claimed lack of regular income despite holding 1. 2 acres of agricultural land. supreme court assessed imputed earning capacity based on asset ownership and awarded monthly maintenance. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0234",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : custody dispute over a 7 - year - old child following marital separation. father highlighted higher financial earnings, while mother demonstrated primary caregiving history and stable emotional environment. district court ruled that paramount welfare of the minor child overrides financial superiority alone. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0235",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : school teacher reported inappropriate physical gestures and verbal harassment by a senior administrator. employer failed to constitute an internal complaints committee as required under posh legislation. high court issued directions for setting up a compliant committee and interim protective transfer. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0236",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : urgent prayer for protection order prohibiting an estranged spouse from approaching the applicant's workplace or residence during ongoing matrimonial litigation. supreme court granted restraining orders enforcing non - contact and physical protection. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0237",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition seeking recovery of stridhan properties, including gold ornaments and financial gifts, retained by in - laws after separation. district court re - affirmed that stridhan is the exclusive property of the woman and directed full restitution. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0238",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition filed for restitution of conjugal rights following marital separation. respondent proved reasonable excuse based on continuous verbal cruelty and financial neglect. high court dismissed restitution prayer. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0239",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application seeking enhancement of interim maintenance due to rising educational costs of minor children and medical expenses. supreme court verified respondent's revised income tax returns and enhanced monthly maintenance grant. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0240",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : aggrieved woman evicted from shared matrimonial home by in - laws during husband's overseas absence. district court enforced statutory right of residence under domestic violence laws, ordering immediate re - entry and police protection. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0241",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition for dissolution of marriage on ground of continuous desertion for over 2 years without reasonable cause. high court evaluated witness testimonies establishing intentional abandonment and granted decree. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0242",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : application filed under the protection of women from domestic violence act seeking protection orders, monetary relief, and right to shared household following emotional cruelty and physical exclusion. respondents argued independent living status. supreme court issued protection and residence orders based on proof of marital residence. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0243",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : complaint alleging persistent demands for motor vehicles and cash post - marriage accompanied by social isolation and harassment. district court reviewed corroborative statements from local residents, medical records, and communication records to evaluate cruelty and dowry demands. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0244",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : deserted spouse and minor child sought monthly maintenance under statutory provisions ( crpc section 125 / bnss section 144 ). respondent claimed lack of regular income despite holding 2. 5 acres of agricultural land. high court assessed imputed earning capacity based on asset ownership and awarded monthly maintenance. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0245",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : custody dispute over a 7 - year - old child following marital separation. father highlighted higher financial earnings, while mother demonstrated primary caregiving history and stable emotional environment. supreme court ruled that paramount welfare of the minor child overrides financial superiority alone. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0246",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : school teacher reported inappropriate physical gestures and verbal harassment by a senior administrator. employer failed to constitute an internal complaints committee as required under posh legislation. district court issued directions for setting up a compliant committee and interim protective transfer. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0247",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : urgent prayer for protection order prohibiting an estranged spouse from approaching the applicant's workplace or residence during ongoing matrimonial litigation. high court granted restraining orders enforcing non - contact and physical protection. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0248",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition seeking recovery of stridhan properties, including gold ornaments and financial gifts, retained by in - laws after separation. supreme court re - affirmed that stridhan is the exclusive property of the woman and directed full restitution. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0249",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "women_violence_marriage"
+  },
+  {
+    "doc_id": "women_violence_marriage",
+    "chunk_index": 0,
+    "text": "synthetic case : petition filed for restitution of conjugal rights following marital separation. respondent proved reasonable excuse based on continuous verbal cruelty and financial neglect. district court dismissed restitution prayer. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_WOM_0250",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "women_violence_marriage"
+  }
+]

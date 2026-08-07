@@ -1,0 +1,2502 @@
+[
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a tea garden supervisor with continuous service for over 240 days in a calendar year was orally discharged without written notice, prior inquiry, or retrenchment compensation mandated under section 25f of the industrial disputes act. management alleged performance issues without holding a domestic inquiry. district court examined muster rolls and pay slips, holding the termination illegal and directing statutory relief. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0001",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : group of rural workers deployed at a processing facility petitioned for 5 months of accrued unpaid wages. the employer claimed financial distress and crop yield loss justified delayed disbursements. high court affirmed that statutory minimum wage obligations under the payment of wages framework cannot be deferred or contingent on commercial profitability. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0002",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : daily - wage workers engaged continuously for over 8 years against sanctioned public works vacancies sought absorption into regular cadre. state authorities argued the initial recruitment lacked formal selection process. supreme court evaluated unbroken service records and directed consideration for regularization under applicable public employment policies. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0003",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a plantation laborer suffered severe partial disability due to an unshielded machine unit at a rural plant. management offered minor ex - gratia assistance while denying statutory liability under the employee's compensation act. district court evaluated medical disability certificates and loss of earning capacity, ordering full statutory compensation. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0004",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : retired seasonal employee denied terminal gratuity benefits on grounds that seasonal employment interrupted continuous service requirements. high court held that seasonal engagements meeting statutory minimum operational days satisfy the threshold under the payment of gratuity act. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0005",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : contractual female brick kiln loader was denied 26 weeks paid maternity leave and subsequently terminated upon applying for leave. employer relied on private contract terms excluding statutory maternity benefits. supreme court ruled that statutory entitlements under the maternity benefit act override private contractual restrictions. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0006",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : agricultural laborers demonstrated that cash wages paid by a commercial farm were lower than state - notified minimum wage rates, with unnotified deductions made for basic shelter. district court prohibited unnotified wage deductions and directed back - pay calculation based on official minimum wage notifications. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0007",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : assembly line workers engaged via an intermediary labor contractor performed core operational tasks alongside permanent workers for half pay. high court found the contract labor arrangement to be a sham mechanism designed to evade equal pay mandates, directing parity in remuneration. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0008",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : inter - state migrant laborers detained at a brick kiln due to alleged advance debt obligations filed for relief under the bonded labour system ( abolition ) act. supreme court directed immediate release, cancellation of alleged debts, and state rehabilitation assistance. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0009",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : factory workers required to work 12 - hour daily shifts without overtime payment petitioned under factories welfare rules. district court verified shift logbooks and ordered payment of double - rate statutory overtime wages. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0010",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : industrial unit management instituted sudden site closure without serving 60 days prior statutory notice to the labor commissioner. high court declared the lockout illegal and awarded full wage continuity during the closure period. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0011",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : union office - bearers were target - transferred to remote sites immediately following the submission of a collective bargaining charter. supreme court held the transfers to be unfair labor practice intended to suppress union activities and issued stay orders. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0012",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : trainees engaged under apprentice designations were deployed on core production machinery for over 3 years without formal training or stipend adjustment. district court recognized them as regular workmen entitled to statutory wage scales. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0013",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : quarry miners exposed to toxic dust petitioned regarding lack of personal protective equipment and regular health check - ups mandated under mines safety regulations. high court ordered immediate safety compliance, medical monitoring, and compensation for affected workers. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0014",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a primary health worker with continuous service for over 240 days in a calendar year was orally discharged without written notice, prior inquiry, or retrenchment compensation mandated under section 25f of the industrial disputes act. management alleged performance issues without holding a domestic inquiry. supreme court examined muster rolls and pay slips, holding the termination illegal and directing statutory relief. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0015",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : group of rural workers deployed at a processing facility petitioned for 5 months of accrued unpaid wages. the employer claimed financial distress and crop yield loss justified delayed disbursements. district court affirmed that statutory minimum wage obligations under the payment of wages framework cannot be deferred or contingent on commercial profitability. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0016",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : daily - wage workers engaged continuously for over 8 years against sanctioned public works vacancies sought absorption into regular cadre. state authorities argued the initial recruitment lacked formal selection process. high court evaluated unbroken service records and directed consideration for regularization under applicable public employment policies. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0017",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a primary health worker suffered severe partial disability due to an unshielded machine unit at a rural plant. management offered minor ex - gratia assistance while denying statutory liability under the employee's compensation act. supreme court evaluated medical disability certificates and loss of earning capacity, ordering full statutory compensation. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0018",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : retired seasonal employee denied terminal gratuity benefits on grounds that seasonal employment interrupted continuous service requirements. district court held that seasonal engagements meeting statutory minimum operational days satisfy the threshold under the payment of gratuity act. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0019",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : contractual female tea garden supervisor was denied 26 weeks paid maternity leave and subsequently terminated upon applying for leave. employer relied on private contract terms excluding statutory maternity benefits. high court ruled that statutory entitlements under the maternity benefit act override private contractual restrictions. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0020",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : agricultural laborers demonstrated that cash wages paid by a commercial farm were lower than state - notified minimum wage rates, with unnotified deductions made for basic shelter. supreme court prohibited unnotified wage deductions and directed back - pay calculation based on official minimum wage notifications. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0021",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : assembly line workers engaged via an intermediary labor contractor performed core operational tasks alongside permanent workers for half pay. district court found the contract labor arrangement to be a sham mechanism designed to evade equal pay mandates, directing parity in remuneration. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0022",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : inter - state migrant laborers detained at a brick kiln due to alleged advance debt obligations filed for relief under the bonded labour system ( abolition ) act. high court directed immediate release, cancellation of alleged debts, and state rehabilitation assistance. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0023",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : factory workers required to work 12 - hour daily shifts without overtime payment petitioned under factories welfare rules. supreme court verified shift logbooks and ordered payment of double - rate statutory overtime wages. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0024",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : industrial unit management instituted sudden site closure without serving 60 days prior statutory notice to the labor commissioner. district court declared the lockout illegal and awarded full wage continuity during the closure period. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0025",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : union office - bearers were target - transferred to remote sites immediately following the submission of a collective bargaining charter. high court held the transfers to be unfair labor practice intended to suppress union activities and issued stay orders. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0026",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : trainees engaged under apprentice designations were deployed on core production machinery for over 3 years without formal training or stipend adjustment. supreme court recognized them as regular workmen entitled to statutory wage scales. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0027",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : quarry miners exposed to toxic dust petitioned regarding lack of personal protective equipment and regular health check - ups mandated under mines safety regulations. district court ordered immediate safety compliance, medical monitoring, and compensation for affected workers. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0028",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a electrical maintenance assistant with continuous service for over 240 days in a calendar year was orally discharged without written notice, prior inquiry, or retrenchment compensation mandated under section 25f of the industrial disputes act. management alleged performance issues without holding a domestic inquiry. high court examined muster rolls and pay slips, holding the termination illegal and directing statutory relief. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0029",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : group of rural workers deployed at a processing facility petitioned for 5 months of accrued unpaid wages. the employer claimed financial distress and crop yield loss justified delayed disbursements. supreme court affirmed that statutory minimum wage obligations under the payment of wages framework cannot be deferred or contingent on commercial profitability. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0030",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : daily - wage workers engaged continuously for over 8 years against sanctioned public works vacancies sought absorption into regular cadre. state authorities argued the initial recruitment lacked formal selection process. district court evaluated unbroken service records and directed consideration for regularization under applicable public employment policies. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0031",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a construction mason suffered severe partial disability due to an unshielded machine unit at a rural plant. management offered minor ex - gratia assistance while denying statutory liability under the employee's compensation act. high court evaluated medical disability certificates and loss of earning capacity, ordering full statutory compensation. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0032",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : retired seasonal employee denied terminal gratuity benefits on grounds that seasonal employment interrupted continuous service requirements. supreme court held that seasonal engagements meeting statutory minimum operational days satisfy the threshold under the payment of gratuity act. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0033",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : contractual female handloom worker was denied 26 weeks paid maternity leave and subsequently terminated upon applying for leave. employer relied on private contract terms excluding statutory maternity benefits. district court ruled that statutory entitlements under the maternity benefit act override private contractual restrictions. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0034",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : agricultural laborers demonstrated that cash wages paid by a commercial farm were lower than state - notified minimum wage rates, with unnotified deductions made for basic shelter. high court prohibited unnotified wage deductions and directed back - pay calculation based on official minimum wage notifications. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0035",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : assembly line workers engaged via an intermediary labor contractor performed core operational tasks alongside permanent workers for half pay. supreme court found the contract labor arrangement to be a sham mechanism designed to evade equal pay mandates, directing parity in remuneration. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0036",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : inter - state migrant laborers detained at a brick kiln due to alleged advance debt obligations filed for relief under the bonded labour system ( abolition ) act. district court directed immediate release, cancellation of alleged debts, and state rehabilitation assistance. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0037",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : factory workers required to work 12 - hour daily shifts without overtime payment petitioned under factories welfare rules. high court verified shift logbooks and ordered payment of double - rate statutory overtime wages. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0038",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : industrial unit management instituted sudden site closure without serving 60 days prior statutory notice to the labor commissioner. supreme court declared the lockout illegal and awarded full wage continuity during the closure period. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0039",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : union office - bearers were target - transferred to remote sites immediately following the submission of a collective bargaining charter. district court held the transfers to be unfair labor practice intended to suppress union activities and issued stay orders. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0040",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : trainees engaged under apprentice designations were deployed on core production machinery for over 3 years without formal training or stipend adjustment. high court recognized them as regular workmen entitled to statutory wage scales. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0041",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : quarry miners exposed to toxic dust petitioned regarding lack of personal protective equipment and regular health check - ups mandated under mines safety regulations. supreme court ordered immediate safety compliance, medical monitoring, and compensation for affected workers. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0042",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a warehouse helper with continuous service for over 240 days in a calendar year was orally discharged without written notice, prior inquiry, or retrenchment compensation mandated under section 25f of the industrial disputes act. management alleged performance issues without holding a domestic inquiry. district court examined muster rolls and pay slips, holding the termination illegal and directing statutory relief. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0043",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : group of rural workers deployed at a processing facility petitioned for 5 months of accrued unpaid wages. the employer claimed financial distress and crop yield loss justified delayed disbursements. high court affirmed that statutory minimum wage obligations under the payment of wages framework cannot be deferred or contingent on commercial profitability. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0044",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : daily - wage workers engaged continuously for over 8 years against sanctioned public works vacancies sought absorption into regular cadre. state authorities argued the initial recruitment lacked formal selection process. supreme court evaluated unbroken service records and directed consideration for regularization under applicable public employment policies. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0045",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a handloom worker suffered severe partial disability due to an unshielded machine unit at a rural plant. management offered minor ex - gratia assistance while denying statutory liability under the employee's compensation act. district court evaluated medical disability certificates and loss of earning capacity, ordering full statutory compensation. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0046",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : retired seasonal employee denied terminal gratuity benefits on grounds that seasonal employment interrupted continuous service requirements. high court held that seasonal engagements meeting statutory minimum operational days satisfy the threshold under the payment of gratuity act. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0047",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : contractual female stone quarry miner was denied 26 weeks paid maternity leave and subsequently terminated upon applying for leave. employer relied on private contract terms excluding statutory maternity benefits. supreme court ruled that statutory entitlements under the maternity benefit act override private contractual restrictions. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0048",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : agricultural laborers demonstrated that cash wages paid by a commercial farm were lower than state - notified minimum wage rates, with unnotified deductions made for basic shelter. district court prohibited unnotified wage deductions and directed back - pay calculation based on official minimum wage notifications. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0049",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : assembly line workers engaged via an intermediary labor contractor performed core operational tasks alongside permanent workers for half pay. high court found the contract labor arrangement to be a sham mechanism designed to evade equal pay mandates, directing parity in remuneration. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0050",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : inter - state migrant laborers detained at a brick kiln due to alleged advance debt obligations filed for relief under the bonded labour system ( abolition ) act. supreme court directed immediate release, cancellation of alleged debts, and state rehabilitation assistance. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0051",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : factory workers required to work 12 - hour daily shifts without overtime payment petitioned under factories welfare rules. district court verified shift logbooks and ordered payment of double - rate statutory overtime wages. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0052",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : industrial unit management instituted sudden site closure without serving 60 days prior statutory notice to the labor commissioner. high court declared the lockout illegal and awarded full wage continuity during the closure period. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0053",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : union office - bearers were target - transferred to remote sites immediately following the submission of a collective bargaining charter. supreme court held the transfers to be unfair labor practice intended to suppress union activities and issued stay orders. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0054",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : trainees engaged under apprentice designations were deployed on core production machinery for over 3 years without formal training or stipend adjustment. district court recognized them as regular workmen entitled to statutory wage scales. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0055",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : quarry miners exposed to toxic dust petitioned regarding lack of personal protective equipment and regular health check - ups mandated under mines safety regulations. high court ordered immediate safety compliance, medical monitoring, and compensation for affected workers. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0056",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a garment worker with continuous service for over 240 days in a calendar year was orally discharged without written notice, prior inquiry, or retrenchment compensation mandated under section 25f of the industrial disputes act. management alleged performance issues without holding a domestic inquiry. supreme court examined muster rolls and pay slips, holding the termination illegal and directing statutory relief. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0057",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : group of rural workers deployed at a processing facility petitioned for 5 months of accrued unpaid wages. the employer claimed financial distress and crop yield loss justified delayed disbursements. district court affirmed that statutory minimum wage obligations under the payment of wages framework cannot be deferred or contingent on commercial profitability. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0058",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : daily - wage workers engaged continuously for over 8 years against sanctioned public works vacancies sought absorption into regular cadre. state authorities argued the initial recruitment lacked formal selection process. high court evaluated unbroken service records and directed consideration for regularization under applicable public employment policies. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0059",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a rice mill operator suffered severe partial disability due to an unshielded machine unit at a rural plant. management offered minor ex - gratia assistance while denying statutory liability under the employee's compensation act. supreme court evaluated medical disability certificates and loss of earning capacity, ordering full statutory compensation. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0060",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : retired seasonal employee denied terminal gratuity benefits on grounds that seasonal employment interrupted continuous service requirements. district court held that seasonal engagements meeting statutory minimum operational days satisfy the threshold under the payment of gratuity act. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0061",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : contractual female textile weaver was denied 26 weeks paid maternity leave and subsequently terminated upon applying for leave. employer relied on private contract terms excluding statutory maternity benefits. high court ruled that statutory entitlements under the maternity benefit act override private contractual restrictions. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0062",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : agricultural laborers demonstrated that cash wages paid by a commercial farm were lower than state - notified minimum wage rates, with unnotified deductions made for basic shelter. supreme court prohibited unnotified wage deductions and directed back - pay calculation based on official minimum wage notifications. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0063",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : assembly line workers engaged via an intermediary labor contractor performed core operational tasks alongside permanent workers for half pay. district court found the contract labor arrangement to be a sham mechanism designed to evade equal pay mandates, directing parity in remuneration. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0064",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : inter - state migrant laborers detained at a brick kiln due to alleged advance debt obligations filed for relief under the bonded labour system ( abolition ) act. high court directed immediate release, cancellation of alleged debts, and state rehabilitation assistance. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0065",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : factory workers required to work 12 - hour daily shifts without overtime payment petitioned under factories welfare rules. supreme court verified shift logbooks and ordered payment of double - rate statutory overtime wages. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0066",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : industrial unit management instituted sudden site closure without serving 60 days prior statutory notice to the labor commissioner. district court declared the lockout illegal and awarded full wage continuity during the closure period. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0067",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : union office - bearers were target - transferred to remote sites immediately following the submission of a collective bargaining charter. high court held the transfers to be unfair labor practice intended to suppress union activities and issued stay orders. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0068",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : trainees engaged under apprentice designations were deployed on core production machinery for over 3 years without formal training or stipend adjustment. supreme court recognized them as regular workmen entitled to statutory wage scales. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0069",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : quarry miners exposed to toxic dust petitioned regarding lack of personal protective equipment and regular health check - ups mandated under mines safety regulations. district court ordered immediate safety compliance, medical monitoring, and compensation for affected workers. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0070",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a sugar mill technician with continuous service for over 240 days in a calendar year was orally discharged without written notice, prior inquiry, or retrenchment compensation mandated under section 25f of the industrial disputes act. management alleged performance issues without holding a domestic inquiry. high court examined muster rolls and pay slips, holding the termination illegal and directing statutory relief. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0071",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : group of rural workers deployed at a processing facility petitioned for 5 months of accrued unpaid wages. the employer claimed financial distress and crop yield loss justified delayed disbursements. supreme court affirmed that statutory minimum wage obligations under the payment of wages framework cannot be deferred or contingent on commercial profitability. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0072",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : daily - wage workers engaged continuously for over 8 years against sanctioned public works vacancies sought absorption into regular cadre. state authorities argued the initial recruitment lacked formal selection process. district court evaluated unbroken service records and directed consideration for regularization under applicable public employment policies. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0073",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a primary health worker suffered severe partial disability due to an unshielded machine unit at a rural plant. management offered minor ex - gratia assistance while denying statutory liability under the employee's compensation act. high court evaluated medical disability certificates and loss of earning capacity, ordering full statutory compensation. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0074",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : retired seasonal employee denied terminal gratuity benefits on grounds that seasonal employment interrupted continuous service requirements. supreme court held that seasonal engagements meeting statutory minimum operational days satisfy the threshold under the payment of gratuity act. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0075",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : contractual female plantation laborer was denied 26 weeks paid maternity leave and subsequently terminated upon applying for leave. employer relied on private contract terms excluding statutory maternity benefits. district court ruled that statutory entitlements under the maternity benefit act override private contractual restrictions. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0076",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : agricultural laborers demonstrated that cash wages paid by a commercial farm were lower than state - notified minimum wage rates, with unnotified deductions made for basic shelter. high court prohibited unnotified wage deductions and directed back - pay calculation based on official minimum wage notifications. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0077",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : assembly line workers engaged via an intermediary labor contractor performed core operational tasks alongside permanent workers for half pay. supreme court found the contract labor arrangement to be a sham mechanism designed to evade equal pay mandates, directing parity in remuneration. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0078",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : inter - state migrant laborers detained at a brick kiln due to alleged advance debt obligations filed for relief under the bonded labour system ( abolition ) act. district court directed immediate release, cancellation of alleged debts, and state rehabilitation assistance. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0079",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : factory workers required to work 12 - hour daily shifts without overtime payment petitioned under factories welfare rules. high court verified shift logbooks and ordered payment of double - rate statutory overtime wages. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0080",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : industrial unit management instituted sudden site closure without serving 60 days prior statutory notice to the labor commissioner. supreme court declared the lockout illegal and awarded full wage continuity during the closure period. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0081",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : union office - bearers were target - transferred to remote sites immediately following the submission of a collective bargaining charter. district court held the transfers to be unfair labor practice intended to suppress union activities and issued stay orders. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0082",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : trainees engaged under apprentice designations were deployed on core production machinery for over 3 years without formal training or stipend adjustment. high court recognized them as regular workmen entitled to statutory wage scales. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0083",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : quarry miners exposed to toxic dust petitioned regarding lack of personal protective equipment and regular health check - ups mandated under mines safety regulations. supreme court ordered immediate safety compliance, medical monitoring, and compensation for affected workers. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0084",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a handloom worker with continuous service for over 240 days in a calendar year was orally discharged without written notice, prior inquiry, or retrenchment compensation mandated under section 25f of the industrial disputes act. management alleged performance issues without holding a domestic inquiry. district court examined muster rolls and pay slips, holding the termination illegal and directing statutory relief. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0085",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : group of rural workers deployed at a processing facility petitioned for 5 months of accrued unpaid wages. the employer claimed financial distress and crop yield loss justified delayed disbursements. high court affirmed that statutory minimum wage obligations under the payment of wages framework cannot be deferred or contingent on commercial profitability. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0086",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : daily - wage workers engaged continuously for over 8 years against sanctioned public works vacancies sought absorption into regular cadre. state authorities argued the initial recruitment lacked formal selection process. supreme court evaluated unbroken service records and directed consideration for regularization under applicable public employment policies. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0087",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a construction mason suffered severe partial disability due to an unshielded machine unit at a rural plant. management offered minor ex - gratia assistance while denying statutory liability under the employee's compensation act. district court evaluated medical disability certificates and loss of earning capacity, ordering full statutory compensation. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0088",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : retired seasonal employee denied terminal gratuity benefits on grounds that seasonal employment interrupted continuous service requirements. high court held that seasonal engagements meeting statutory minimum operational days satisfy the threshold under the payment of gratuity act. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0089",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : contractual female textile weaver was denied 26 weeks paid maternity leave and subsequently terminated upon applying for leave. employer relied on private contract terms excluding statutory maternity benefits. supreme court ruled that statutory entitlements under the maternity benefit act override private contractual restrictions. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0090",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : agricultural laborers demonstrated that cash wages paid by a commercial farm were lower than state - notified minimum wage rates, with unnotified deductions made for basic shelter. district court prohibited unnotified wage deductions and directed back - pay calculation based on official minimum wage notifications. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0091",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : assembly line workers engaged via an intermediary labor contractor performed core operational tasks alongside permanent workers for half pay. high court found the contract labor arrangement to be a sham mechanism designed to evade equal pay mandates, directing parity in remuneration. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0092",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : inter - state migrant laborers detained at a brick kiln due to alleged advance debt obligations filed for relief under the bonded labour system ( abolition ) act. supreme court directed immediate release, cancellation of alleged debts, and state rehabilitation assistance. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0093",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : factory workers required to work 12 - hour daily shifts without overtime payment petitioned under factories welfare rules. district court verified shift logbooks and ordered payment of double - rate statutory overtime wages. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0094",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : industrial unit management instituted sudden site closure without serving 60 days prior statutory notice to the labor commissioner. high court declared the lockout illegal and awarded full wage continuity during the closure period. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0095",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : union office - bearers were target - transferred to remote sites immediately following the submission of a collective bargaining charter. supreme court held the transfers to be unfair labor practice intended to suppress union activities and issued stay orders. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0096",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : trainees engaged under apprentice designations were deployed on core production machinery for over 3 years without formal training or stipend adjustment. district court recognized them as regular workmen entitled to statutory wage scales. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0097",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : quarry miners exposed to toxic dust petitioned regarding lack of personal protective equipment and regular health check - ups mandated under mines safety regulations. high court ordered immediate safety compliance, medical monitoring, and compensation for affected workers. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0098",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a sanitation worker with continuous service for over 240 days in a calendar year was orally discharged without written notice, prior inquiry, or retrenchment compensation mandated under section 25f of the industrial disputes act. management alleged performance issues without holding a domestic inquiry. supreme court examined muster rolls and pay slips, holding the termination illegal and directing statutory relief. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0099",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : group of rural workers deployed at a processing facility petitioned for 5 months of accrued unpaid wages. the employer claimed financial distress and crop yield loss justified delayed disbursements. district court affirmed that statutory minimum wage obligations under the payment of wages framework cannot be deferred or contingent on commercial profitability. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0100",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : daily - wage workers engaged continuously for over 8 years against sanctioned public works vacancies sought absorption into regular cadre. state authorities argued the initial recruitment lacked formal selection process. high court evaluated unbroken service records and directed consideration for regularization under applicable public employment policies. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0101",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a garment worker suffered severe partial disability due to an unshielded machine unit at a rural plant. management offered minor ex - gratia assistance while denying statutory liability under the employee's compensation act. supreme court evaluated medical disability certificates and loss of earning capacity, ordering full statutory compensation. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0102",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : retired seasonal employee denied terminal gratuity benefits on grounds that seasonal employment interrupted continuous service requirements. district court held that seasonal engagements meeting statutory minimum operational days satisfy the threshold under the payment of gratuity act. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0103",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : contractual female sugar mill technician was denied 26 weeks paid maternity leave and subsequently terminated upon applying for leave. employer relied on private contract terms excluding statutory maternity benefits. high court ruled that statutory entitlements under the maternity benefit act override private contractual restrictions. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0104",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : agricultural laborers demonstrated that cash wages paid by a commercial farm were lower than state - notified minimum wage rates, with unnotified deductions made for basic shelter. supreme court prohibited unnotified wage deductions and directed back - pay calculation based on official minimum wage notifications. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0105",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : assembly line workers engaged via an intermediary labor contractor performed core operational tasks alongside permanent workers for half pay. district court found the contract labor arrangement to be a sham mechanism designed to evade equal pay mandates, directing parity in remuneration. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0106",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : inter - state migrant laborers detained at a brick kiln due to alleged advance debt obligations filed for relief under the bonded labour system ( abolition ) act. high court directed immediate release, cancellation of alleged debts, and state rehabilitation assistance. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0107",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : factory workers required to work 12 - hour daily shifts without overtime payment petitioned under factories welfare rules. supreme court verified shift logbooks and ordered payment of double - rate statutory overtime wages. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0108",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : industrial unit management instituted sudden site closure without serving 60 days prior statutory notice to the labor commissioner. district court declared the lockout illegal and awarded full wage continuity during the closure period. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0109",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : union office - bearers were target - transferred to remote sites immediately following the submission of a collective bargaining charter. high court held the transfers to be unfair labor practice intended to suppress union activities and issued stay orders. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0110",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : trainees engaged under apprentice designations were deployed on core production machinery for over 3 years without formal training or stipend adjustment. supreme court recognized them as regular workmen entitled to statutory wage scales. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0111",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : quarry miners exposed to toxic dust petitioned regarding lack of personal protective equipment and regular health check - ups mandated under mines safety regulations. district court ordered immediate safety compliance, medical monitoring, and compensation for affected workers. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0112",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a warehouse helper with continuous service for over 240 days in a calendar year was orally discharged without written notice, prior inquiry, or retrenchment compensation mandated under section 25f of the industrial disputes act. management alleged performance issues without holding a domestic inquiry. high court examined muster rolls and pay slips, holding the termination illegal and directing statutory relief. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0113",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : group of rural workers deployed at a processing facility petitioned for 5 months of accrued unpaid wages. the employer claimed financial distress and crop yield loss justified delayed disbursements. supreme court affirmed that statutory minimum wage obligations under the payment of wages framework cannot be deferred or contingent on commercial profitability. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0114",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : daily - wage workers engaged continuously for over 8 years against sanctioned public works vacancies sought absorption into regular cadre. state authorities argued the initial recruitment lacked formal selection process. district court evaluated unbroken service records and directed consideration for regularization under applicable public employment policies. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0115",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a brick kiln loader suffered severe partial disability due to an unshielded machine unit at a rural plant. management offered minor ex - gratia assistance while denying statutory liability under the employee's compensation act. high court evaluated medical disability certificates and loss of earning capacity, ordering full statutory compensation. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0116",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : retired seasonal employee denied terminal gratuity benefits on grounds that seasonal employment interrupted continuous service requirements. supreme court held that seasonal engagements meeting statutory minimum operational days satisfy the threshold under the payment of gratuity act. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0117",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : contractual female tea garden supervisor was denied 26 weeks paid maternity leave and subsequently terminated upon applying for leave. employer relied on private contract terms excluding statutory maternity benefits. district court ruled that statutory entitlements under the maternity benefit act override private contractual restrictions. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0118",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : agricultural laborers demonstrated that cash wages paid by a commercial farm were lower than state - notified minimum wage rates, with unnotified deductions made for basic shelter. high court prohibited unnotified wage deductions and directed back - pay calculation based on official minimum wage notifications. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0119",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : assembly line workers engaged via an intermediary labor contractor performed core operational tasks alongside permanent workers for half pay. supreme court found the contract labor arrangement to be a sham mechanism designed to evade equal pay mandates, directing parity in remuneration. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0120",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : inter - state migrant laborers detained at a brick kiln due to alleged advance debt obligations filed for relief under the bonded labour system ( abolition ) act. district court directed immediate release, cancellation of alleged debts, and state rehabilitation assistance. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0121",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : factory workers required to work 12 - hour daily shifts without overtime payment petitioned under factories welfare rules. high court verified shift logbooks and ordered payment of double - rate statutory overtime wages. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0122",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : industrial unit management instituted sudden site closure without serving 60 days prior statutory notice to the labor commissioner. supreme court declared the lockout illegal and awarded full wage continuity during the closure period. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0123",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : union office - bearers were target - transferred to remote sites immediately following the submission of a collective bargaining charter. district court held the transfers to be unfair labor practice intended to suppress union activities and issued stay orders. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0124",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : trainees engaged under apprentice designations were deployed on core production machinery for over 3 years without formal training or stipend adjustment. high court recognized them as regular workmen entitled to statutory wage scales. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0125",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : quarry miners exposed to toxic dust petitioned regarding lack of personal protective equipment and regular health check - ups mandated under mines safety regulations. supreme court ordered immediate safety compliance, medical monitoring, and compensation for affected workers. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0126",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a rice mill operator with continuous service for over 240 days in a calendar year was orally discharged without written notice, prior inquiry, or retrenchment compensation mandated under section 25f of the industrial disputes act. management alleged performance issues without holding a domestic inquiry. district court examined muster rolls and pay slips, holding the termination illegal and directing statutory relief. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0127",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : group of rural workers deployed at a processing facility petitioned for 5 months of accrued unpaid wages. the employer claimed financial distress and crop yield loss justified delayed disbursements. high court affirmed that statutory minimum wage obligations under the payment of wages framework cannot be deferred or contingent on commercial profitability. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0128",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : daily - wage workers engaged continuously for over 8 years against sanctioned public works vacancies sought absorption into regular cadre. state authorities argued the initial recruitment lacked formal selection process. supreme court evaluated unbroken service records and directed consideration for regularization under applicable public employment policies. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0129",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a garment worker suffered severe partial disability due to an unshielded machine unit at a rural plant. management offered minor ex - gratia assistance while denying statutory liability under the employee's compensation act. district court evaluated medical disability certificates and loss of earning capacity, ordering full statutory compensation. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0130",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : retired seasonal employee denied terminal gratuity benefits on grounds that seasonal employment interrupted continuous service requirements. high court held that seasonal engagements meeting statutory minimum operational days satisfy the threshold under the payment of gratuity act. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0131",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : contractual female sanitation worker was denied 26 weeks paid maternity leave and subsequently terminated upon applying for leave. employer relied on private contract terms excluding statutory maternity benefits. supreme court ruled that statutory entitlements under the maternity benefit act override private contractual restrictions. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0132",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : agricultural laborers demonstrated that cash wages paid by a commercial farm were lower than state - notified minimum wage rates, with unnotified deductions made for basic shelter. district court prohibited unnotified wage deductions and directed back - pay calculation based on official minimum wage notifications. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0133",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : assembly line workers engaged via an intermediary labor contractor performed core operational tasks alongside permanent workers for half pay. high court found the contract labor arrangement to be a sham mechanism designed to evade equal pay mandates, directing parity in remuneration. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0134",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : inter - state migrant laborers detained at a brick kiln due to alleged advance debt obligations filed for relief under the bonded labour system ( abolition ) act. supreme court directed immediate release, cancellation of alleged debts, and state rehabilitation assistance. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0135",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : factory workers required to work 12 - hour daily shifts without overtime payment petitioned under factories welfare rules. district court verified shift logbooks and ordered payment of double - rate statutory overtime wages. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0136",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : industrial unit management instituted sudden site closure without serving 60 days prior statutory notice to the labor commissioner. high court declared the lockout illegal and awarded full wage continuity during the closure period. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0137",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : union office - bearers were target - transferred to remote sites immediately following the submission of a collective bargaining charter. supreme court held the transfers to be unfair labor practice intended to suppress union activities and issued stay orders. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0138",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : trainees engaged under apprentice designations were deployed on core production machinery for over 3 years without formal training or stipend adjustment. district court recognized them as regular workmen entitled to statutory wage scales. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0139",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : quarry miners exposed to toxic dust petitioned regarding lack of personal protective equipment and regular health check - ups mandated under mines safety regulations. high court ordered immediate safety compliance, medical monitoring, and compensation for affected workers. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0140",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a sugar mill technician with continuous service for over 240 days in a calendar year was orally discharged without written notice, prior inquiry, or retrenchment compensation mandated under section 25f of the industrial disputes act. management alleged performance issues without holding a domestic inquiry. supreme court examined muster rolls and pay slips, holding the termination illegal and directing statutory relief. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0141",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : group of rural workers deployed at a processing facility petitioned for 5 months of accrued unpaid wages. the employer claimed financial distress and crop yield loss justified delayed disbursements. district court affirmed that statutory minimum wage obligations under the payment of wages framework cannot be deferred or contingent on commercial profitability. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0142",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : daily - wage workers engaged continuously for over 8 years against sanctioned public works vacancies sought absorption into regular cadre. state authorities argued the initial recruitment lacked formal selection process. high court evaluated unbroken service records and directed consideration for regularization under applicable public employment policies. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0143",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a brick kiln loader suffered severe partial disability due to an unshielded machine unit at a rural plant. management offered minor ex - gratia assistance while denying statutory liability under the employee's compensation act. supreme court evaluated medical disability certificates and loss of earning capacity, ordering full statutory compensation. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0144",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : retired seasonal employee denied terminal gratuity benefits on grounds that seasonal employment interrupted continuous service requirements. district court held that seasonal engagements meeting statutory minimum operational days satisfy the threshold under the payment of gratuity act. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0145",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : contractual female warehouse helper was denied 26 weeks paid maternity leave and subsequently terminated upon applying for leave. employer relied on private contract terms excluding statutory maternity benefits. high court ruled that statutory entitlements under the maternity benefit act override private contractual restrictions. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0146",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : agricultural laborers demonstrated that cash wages paid by a commercial farm were lower than state - notified minimum wage rates, with unnotified deductions made for basic shelter. supreme court prohibited unnotified wage deductions and directed back - pay calculation based on official minimum wage notifications. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0147",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : assembly line workers engaged via an intermediary labor contractor performed core operational tasks alongside permanent workers for half pay. district court found the contract labor arrangement to be a sham mechanism designed to evade equal pay mandates, directing parity in remuneration. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0148",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : inter - state migrant laborers detained at a brick kiln due to alleged advance debt obligations filed for relief under the bonded labour system ( abolition ) act. high court directed immediate release, cancellation of alleged debts, and state rehabilitation assistance. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0149",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : factory workers required to work 12 - hour daily shifts without overtime payment petitioned under factories welfare rules. supreme court verified shift logbooks and ordered payment of double - rate statutory overtime wages. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0150",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : industrial unit management instituted sudden site closure without serving 60 days prior statutory notice to the labor commissioner. district court declared the lockout illegal and awarded full wage continuity during the closure period. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0151",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : union office - bearers were target - transferred to remote sites immediately following the submission of a collective bargaining charter. high court held the transfers to be unfair labor practice intended to suppress union activities and issued stay orders. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0152",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : trainees engaged under apprentice designations were deployed on core production machinery for over 3 years without formal training or stipend adjustment. supreme court recognized them as regular workmen entitled to statutory wage scales. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0153",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : quarry miners exposed to toxic dust petitioned regarding lack of personal protective equipment and regular health check - ups mandated under mines safety regulations. district court ordered immediate safety compliance, medical monitoring, and compensation for affected workers. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0154",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a sanitation worker with continuous service for over 240 days in a calendar year was orally discharged without written notice, prior inquiry, or retrenchment compensation mandated under section 25f of the industrial disputes act. management alleged performance issues without holding a domestic inquiry. high court examined muster rolls and pay slips, holding the termination illegal and directing statutory relief. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0155",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : group of rural workers deployed at a processing facility petitioned for 5 months of accrued unpaid wages. the employer claimed financial distress and crop yield loss justified delayed disbursements. supreme court affirmed that statutory minimum wage obligations under the payment of wages framework cannot be deferred or contingent on commercial profitability. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0156",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : daily - wage workers engaged continuously for over 8 years against sanctioned public works vacancies sought absorption into regular cadre. state authorities argued the initial recruitment lacked formal selection process. district court evaluated unbroken service records and directed consideration for regularization under applicable public employment policies. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0157",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a sanitation worker suffered severe partial disability due to an unshielded machine unit at a rural plant. management offered minor ex - gratia assistance while denying statutory liability under the employee's compensation act. high court evaluated medical disability certificates and loss of earning capacity, ordering full statutory compensation. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0158",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : retired seasonal employee denied terminal gratuity benefits on grounds that seasonal employment interrupted continuous service requirements. supreme court held that seasonal engagements meeting statutory minimum operational days satisfy the threshold under the payment of gratuity act. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0159",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : contractual female stone quarry miner was denied 26 weeks paid maternity leave and subsequently terminated upon applying for leave. employer relied on private contract terms excluding statutory maternity benefits. district court ruled that statutory entitlements under the maternity benefit act override private contractual restrictions. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0160",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : agricultural laborers demonstrated that cash wages paid by a commercial farm were lower than state - notified minimum wage rates, with unnotified deductions made for basic shelter. high court prohibited unnotified wage deductions and directed back - pay calculation based on official minimum wage notifications. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0161",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : assembly line workers engaged via an intermediary labor contractor performed core operational tasks alongside permanent workers for half pay. supreme court found the contract labor arrangement to be a sham mechanism designed to evade equal pay mandates, directing parity in remuneration. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0162",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : inter - state migrant laborers detained at a brick kiln due to alleged advance debt obligations filed for relief under the bonded labour system ( abolition ) act. district court directed immediate release, cancellation of alleged debts, and state rehabilitation assistance. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0163",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : factory workers required to work 12 - hour daily shifts without overtime payment petitioned under factories welfare rules. high court verified shift logbooks and ordered payment of double - rate statutory overtime wages. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0164",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : industrial unit management instituted sudden site closure without serving 60 days prior statutory notice to the labor commissioner. supreme court declared the lockout illegal and awarded full wage continuity during the closure period. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0165",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : union office - bearers were target - transferred to remote sites immediately following the submission of a collective bargaining charter. district court held the transfers to be unfair labor practice intended to suppress union activities and issued stay orders. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0166",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : trainees engaged under apprentice designations were deployed on core production machinery for over 3 years without formal training or stipend adjustment. high court recognized them as regular workmen entitled to statutory wage scales. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0167",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : quarry miners exposed to toxic dust petitioned regarding lack of personal protective equipment and regular health check - ups mandated under mines safety regulations. supreme court ordered immediate safety compliance, medical monitoring, and compensation for affected workers. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0168",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a electrical maintenance assistant with continuous service for over 240 days in a calendar year was orally discharged without written notice, prior inquiry, or retrenchment compensation mandated under section 25f of the industrial disputes act. management alleged performance issues without holding a domestic inquiry. district court examined muster rolls and pay slips, holding the termination illegal and directing statutory relief. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0169",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : group of rural workers deployed at a processing facility petitioned for 5 months of accrued unpaid wages. the employer claimed financial distress and crop yield loss justified delayed disbursements. high court affirmed that statutory minimum wage obligations under the payment of wages framework cannot be deferred or contingent on commercial profitability. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0170",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : daily - wage workers engaged continuously for over 8 years against sanctioned public works vacancies sought absorption into regular cadre. state authorities argued the initial recruitment lacked formal selection process. supreme court evaluated unbroken service records and directed consideration for regularization under applicable public employment policies. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0171",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a tea garden supervisor suffered severe partial disability due to an unshielded machine unit at a rural plant. management offered minor ex - gratia assistance while denying statutory liability under the employee's compensation act. district court evaluated medical disability certificates and loss of earning capacity, ordering full statutory compensation. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0172",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : retired seasonal employee denied terminal gratuity benefits on grounds that seasonal employment interrupted continuous service requirements. high court held that seasonal engagements meeting statutory minimum operational days satisfy the threshold under the payment of gratuity act. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0173",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : contractual female sugar mill technician was denied 26 weeks paid maternity leave and subsequently terminated upon applying for leave. employer relied on private contract terms excluding statutory maternity benefits. supreme court ruled that statutory entitlements under the maternity benefit act override private contractual restrictions. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0174",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : agricultural laborers demonstrated that cash wages paid by a commercial farm were lower than state - notified minimum wage rates, with unnotified deductions made for basic shelter. district court prohibited unnotified wage deductions and directed back - pay calculation based on official minimum wage notifications. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0175",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : assembly line workers engaged via an intermediary labor contractor performed core operational tasks alongside permanent workers for half pay. high court found the contract labor arrangement to be a sham mechanism designed to evade equal pay mandates, directing parity in remuneration. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0176",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : inter - state migrant laborers detained at a brick kiln due to alleged advance debt obligations filed for relief under the bonded labour system ( abolition ) act. supreme court directed immediate release, cancellation of alleged debts, and state rehabilitation assistance. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0177",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : factory workers required to work 12 - hour daily shifts without overtime payment petitioned under factories welfare rules. district court verified shift logbooks and ordered payment of double - rate statutory overtime wages. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0178",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : industrial unit management instituted sudden site closure without serving 60 days prior statutory notice to the labor commissioner. high court declared the lockout illegal and awarded full wage continuity during the closure period. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0179",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : union office - bearers were target - transferred to remote sites immediately following the submission of a collective bargaining charter. supreme court held the transfers to be unfair labor practice intended to suppress union activities and issued stay orders. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0180",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : trainees engaged under apprentice designations were deployed on core production machinery for over 3 years without formal training or stipend adjustment. district court recognized them as regular workmen entitled to statutory wage scales. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0181",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : quarry miners exposed to toxic dust petitioned regarding lack of personal protective equipment and regular health check - ups mandated under mines safety regulations. high court ordered immediate safety compliance, medical monitoring, and compensation for affected workers. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0182",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a sanitation worker with continuous service for over 240 days in a calendar year was orally discharged without written notice, prior inquiry, or retrenchment compensation mandated under section 25f of the industrial disputes act. management alleged performance issues without holding a domestic inquiry. supreme court examined muster rolls and pay slips, holding the termination illegal and directing statutory relief. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0183",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : group of rural workers deployed at a processing facility petitioned for 5 months of accrued unpaid wages. the employer claimed financial distress and crop yield loss justified delayed disbursements. district court affirmed that statutory minimum wage obligations under the payment of wages framework cannot be deferred or contingent on commercial profitability. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0184",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : daily - wage workers engaged continuously for over 8 years against sanctioned public works vacancies sought absorption into regular cadre. state authorities argued the initial recruitment lacked formal selection process. high court evaluated unbroken service records and directed consideration for regularization under applicable public employment policies. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0185",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a sanitation worker suffered severe partial disability due to an unshielded machine unit at a rural plant. management offered minor ex - gratia assistance while denying statutory liability under the employee's compensation act. supreme court evaluated medical disability certificates and loss of earning capacity, ordering full statutory compensation. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0186",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : retired seasonal employee denied terminal gratuity benefits on grounds that seasonal employment interrupted continuous service requirements. district court held that seasonal engagements meeting statutory minimum operational days satisfy the threshold under the payment of gratuity act. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0187",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : contractual female textile weaver was denied 26 weeks paid maternity leave and subsequently terminated upon applying for leave. employer relied on private contract terms excluding statutory maternity benefits. high court ruled that statutory entitlements under the maternity benefit act override private contractual restrictions. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0188",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : agricultural laborers demonstrated that cash wages paid by a commercial farm were lower than state - notified minimum wage rates, with unnotified deductions made for basic shelter. supreme court prohibited unnotified wage deductions and directed back - pay calculation based on official minimum wage notifications. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0189",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : assembly line workers engaged via an intermediary labor contractor performed core operational tasks alongside permanent workers for half pay. district court found the contract labor arrangement to be a sham mechanism designed to evade equal pay mandates, directing parity in remuneration. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0190",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : inter - state migrant laborers detained at a brick kiln due to alleged advance debt obligations filed for relief under the bonded labour system ( abolition ) act. high court directed immediate release, cancellation of alleged debts, and state rehabilitation assistance. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0191",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : factory workers required to work 12 - hour daily shifts without overtime payment petitioned under factories welfare rules. supreme court verified shift logbooks and ordered payment of double - rate statutory overtime wages. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0192",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : industrial unit management instituted sudden site closure without serving 60 days prior statutory notice to the labor commissioner. district court declared the lockout illegal and awarded full wage continuity during the closure period. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0193",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : union office - bearers were target - transferred to remote sites immediately following the submission of a collective bargaining charter. high court held the transfers to be unfair labor practice intended to suppress union activities and issued stay orders. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0194",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : trainees engaged under apprentice designations were deployed on core production machinery for over 3 years without formal training or stipend adjustment. supreme court recognized them as regular workmen entitled to statutory wage scales. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0195",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : quarry miners exposed to toxic dust petitioned regarding lack of personal protective equipment and regular health check - ups mandated under mines safety regulations. district court ordered immediate safety compliance, medical monitoring, and compensation for affected workers. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0196",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a garment worker with continuous service for over 240 days in a calendar year was orally discharged without written notice, prior inquiry, or retrenchment compensation mandated under section 25f of the industrial disputes act. management alleged performance issues without holding a domestic inquiry. high court examined muster rolls and pay slips, holding the termination illegal and directing statutory relief. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0197",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : group of rural workers deployed at a processing facility petitioned for 5 months of accrued unpaid wages. the employer claimed financial distress and crop yield loss justified delayed disbursements. supreme court affirmed that statutory minimum wage obligations under the payment of wages framework cannot be deferred or contingent on commercial profitability. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0198",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : daily - wage workers engaged continuously for over 8 years against sanctioned public works vacancies sought absorption into regular cadre. state authorities argued the initial recruitment lacked formal selection process. district court evaluated unbroken service records and directed consideration for regularization under applicable public employment policies. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0199",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a sanitation worker suffered severe partial disability due to an unshielded machine unit at a rural plant. management offered minor ex - gratia assistance while denying statutory liability under the employee's compensation act. high court evaluated medical disability certificates and loss of earning capacity, ordering full statutory compensation. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0200",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : retired seasonal employee denied terminal gratuity benefits on grounds that seasonal employment interrupted continuous service requirements. supreme court held that seasonal engagements meeting statutory minimum operational days satisfy the threshold under the payment of gratuity act. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0201",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : contractual female handloom worker was denied 26 weeks paid maternity leave and subsequently terminated upon applying for leave. employer relied on private contract terms excluding statutory maternity benefits. district court ruled that statutory entitlements under the maternity benefit act override private contractual restrictions. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0202",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : agricultural laborers demonstrated that cash wages paid by a commercial farm were lower than state - notified minimum wage rates, with unnotified deductions made for basic shelter. high court prohibited unnotified wage deductions and directed back - pay calculation based on official minimum wage notifications. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0203",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : assembly line workers engaged via an intermediary labor contractor performed core operational tasks alongside permanent workers for half pay. supreme court found the contract labor arrangement to be a sham mechanism designed to evade equal pay mandates, directing parity in remuneration. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0204",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : inter - state migrant laborers detained at a brick kiln due to alleged advance debt obligations filed for relief under the bonded labour system ( abolition ) act. district court directed immediate release, cancellation of alleged debts, and state rehabilitation assistance. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0205",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : factory workers required to work 12 - hour daily shifts without overtime payment petitioned under factories welfare rules. high court verified shift logbooks and ordered payment of double - rate statutory overtime wages. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0206",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : industrial unit management instituted sudden site closure without serving 60 days prior statutory notice to the labor commissioner. supreme court declared the lockout illegal and awarded full wage continuity during the closure period. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0207",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : union office - bearers were target - transferred to remote sites immediately following the submission of a collective bargaining charter. district court held the transfers to be unfair labor practice intended to suppress union activities and issued stay orders. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0208",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : trainees engaged under apprentice designations were deployed on core production machinery for over 3 years without formal training or stipend adjustment. high court recognized them as regular workmen entitled to statutory wage scales. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0209",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : quarry miners exposed to toxic dust petitioned regarding lack of personal protective equipment and regular health check - ups mandated under mines safety regulations. supreme court ordered immediate safety compliance, medical monitoring, and compensation for affected workers. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0210",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a tea garden supervisor with continuous service for over 240 days in a calendar year was orally discharged without written notice, prior inquiry, or retrenchment compensation mandated under section 25f of the industrial disputes act. management alleged performance issues without holding a domestic inquiry. district court examined muster rolls and pay slips, holding the termination illegal and directing statutory relief. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0211",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : group of rural workers deployed at a processing facility petitioned for 5 months of accrued unpaid wages. the employer claimed financial distress and crop yield loss justified delayed disbursements. high court affirmed that statutory minimum wage obligations under the payment of wages framework cannot be deferred or contingent on commercial profitability. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0212",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : daily - wage workers engaged continuously for over 8 years against sanctioned public works vacancies sought absorption into regular cadre. state authorities argued the initial recruitment lacked formal selection process. supreme court evaluated unbroken service records and directed consideration for regularization under applicable public employment policies. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0213",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a sanitation worker suffered severe partial disability due to an unshielded machine unit at a rural plant. management offered minor ex - gratia assistance while denying statutory liability under the employee's compensation act. district court evaluated medical disability certificates and loss of earning capacity, ordering full statutory compensation. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0214",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : retired seasonal employee denied terminal gratuity benefits on grounds that seasonal employment interrupted continuous service requirements. high court held that seasonal engagements meeting statutory minimum operational days satisfy the threshold under the payment of gratuity act. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0215",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : contractual female warehouse helper was denied 26 weeks paid maternity leave and subsequently terminated upon applying for leave. employer relied on private contract terms excluding statutory maternity benefits. supreme court ruled that statutory entitlements under the maternity benefit act override private contractual restrictions. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0216",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : agricultural laborers demonstrated that cash wages paid by a commercial farm were lower than state - notified minimum wage rates, with unnotified deductions made for basic shelter. district court prohibited unnotified wage deductions and directed back - pay calculation based on official minimum wage notifications. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0217",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : assembly line workers engaged via an intermediary labor contractor performed core operational tasks alongside permanent workers for half pay. high court found the contract labor arrangement to be a sham mechanism designed to evade equal pay mandates, directing parity in remuneration. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0218",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : inter - state migrant laborers detained at a brick kiln due to alleged advance debt obligations filed for relief under the bonded labour system ( abolition ) act. supreme court directed immediate release, cancellation of alleged debts, and state rehabilitation assistance. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0219",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : factory workers required to work 12 - hour daily shifts without overtime payment petitioned under factories welfare rules. district court verified shift logbooks and ordered payment of double - rate statutory overtime wages. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0220",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : industrial unit management instituted sudden site closure without serving 60 days prior statutory notice to the labor commissioner. high court declared the lockout illegal and awarded full wage continuity during the closure period. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0221",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : union office - bearers were target - transferred to remote sites immediately following the submission of a collective bargaining charter. supreme court held the transfers to be unfair labor practice intended to suppress union activities and issued stay orders. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0222",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : trainees engaged under apprentice designations were deployed on core production machinery for over 3 years without formal training or stipend adjustment. district court recognized them as regular workmen entitled to statutory wage scales. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0223",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : quarry miners exposed to toxic dust petitioned regarding lack of personal protective equipment and regular health check - ups mandated under mines safety regulations. high court ordered immediate safety compliance, medical monitoring, and compensation for affected workers. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0224",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a sugar mill technician with continuous service for over 240 days in a calendar year was orally discharged without written notice, prior inquiry, or retrenchment compensation mandated under section 25f of the industrial disputes act. management alleged performance issues without holding a domestic inquiry. supreme court examined muster rolls and pay slips, holding the termination illegal and directing statutory relief. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0225",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : group of rural workers deployed at a processing facility petitioned for 5 months of accrued unpaid wages. the employer claimed financial distress and crop yield loss justified delayed disbursements. district court affirmed that statutory minimum wage obligations under the payment of wages framework cannot be deferred or contingent on commercial profitability. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0226",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : daily - wage workers engaged continuously for over 8 years against sanctioned public works vacancies sought absorption into regular cadre. state authorities argued the initial recruitment lacked formal selection process. high court evaluated unbroken service records and directed consideration for regularization under applicable public employment policies. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0227",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a handloom worker suffered severe partial disability due to an unshielded machine unit at a rural plant. management offered minor ex - gratia assistance while denying statutory liability under the employee's compensation act. supreme court evaluated medical disability certificates and loss of earning capacity, ordering full statutory compensation. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0228",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : retired seasonal employee denied terminal gratuity benefits on grounds that seasonal employment interrupted continuous service requirements. district court held that seasonal engagements meeting statutory minimum operational days satisfy the threshold under the payment of gratuity act. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0229",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : contractual female tractor driver was denied 26 weeks paid maternity leave and subsequently terminated upon applying for leave. employer relied on private contract terms excluding statutory maternity benefits. high court ruled that statutory entitlements under the maternity benefit act override private contractual restrictions. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0230",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : agricultural laborers demonstrated that cash wages paid by a commercial farm were lower than state - notified minimum wage rates, with unnotified deductions made for basic shelter. supreme court prohibited unnotified wage deductions and directed back - pay calculation based on official minimum wage notifications. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0231",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : assembly line workers engaged via an intermediary labor contractor performed core operational tasks alongside permanent workers for half pay. district court found the contract labor arrangement to be a sham mechanism designed to evade equal pay mandates, directing parity in remuneration. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0232",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : inter - state migrant laborers detained at a brick kiln due to alleged advance debt obligations filed for relief under the bonded labour system ( abolition ) act. high court directed immediate release, cancellation of alleged debts, and state rehabilitation assistance. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0233",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : factory workers required to work 12 - hour daily shifts without overtime payment petitioned under factories welfare rules. supreme court verified shift logbooks and ordered payment of double - rate statutory overtime wages. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0234",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : industrial unit management instituted sudden site closure without serving 60 days prior statutory notice to the labor commissioner. district court declared the lockout illegal and awarded full wage continuity during the closure period. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0235",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : union office - bearers were target - transferred to remote sites immediately following the submission of a collective bargaining charter. high court held the transfers to be unfair labor practice intended to suppress union activities and issued stay orders. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0236",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : trainees engaged under apprentice designations were deployed on core production machinery for over 3 years without formal training or stipend adjustment. supreme court recognized them as regular workmen entitled to statutory wage scales. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0237",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : quarry miners exposed to toxic dust petitioned regarding lack of personal protective equipment and regular health check - ups mandated under mines safety regulations. district court ordered immediate safety compliance, medical monitoring, and compensation for affected workers. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0238",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a stone quarry miner with continuous service for over 240 days in a calendar year was orally discharged without written notice, prior inquiry, or retrenchment compensation mandated under section 25f of the industrial disputes act. management alleged performance issues without holding a domestic inquiry. high court examined muster rolls and pay slips, holding the termination illegal and directing statutory relief. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0239",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : group of rural workers deployed at a processing facility petitioned for 5 months of accrued unpaid wages. the employer claimed financial distress and crop yield loss justified delayed disbursements. supreme court affirmed that statutory minimum wage obligations under the payment of wages framework cannot be deferred or contingent on commercial profitability. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0240",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : daily - wage workers engaged continuously for over 8 years against sanctioned public works vacancies sought absorption into regular cadre. state authorities argued the initial recruitment lacked formal selection process. district court evaluated unbroken service records and directed consideration for regularization under applicable public employment policies. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0241",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : a brick kiln loader suffered severe partial disability due to an unshielded machine unit at a rural plant. management offered minor ex - gratia assistance while denying statutory liability under the employee's compensation act. high court evaluated medical disability certificates and loss of earning capacity, ordering full statutory compensation. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0242",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : retired seasonal employee denied terminal gratuity benefits on grounds that seasonal employment interrupted continuous service requirements. supreme court held that seasonal engagements meeting statutory minimum operational days satisfy the threshold under the payment of gratuity act. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0243",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : contractual female rice mill operator was denied 26 weeks paid maternity leave and subsequently terminated upon applying for leave. employer relied on private contract terms excluding statutory maternity benefits. district court ruled that statutory entitlements under the maternity benefit act override private contractual restrictions. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0244",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : agricultural laborers demonstrated that cash wages paid by a commercial farm were lower than state - notified minimum wage rates, with unnotified deductions made for basic shelter. high court prohibited unnotified wage deductions and directed back - pay calculation based on official minimum wage notifications. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0245",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : assembly line workers engaged via an intermediary labor contractor performed core operational tasks alongside permanent workers for half pay. supreme court found the contract labor arrangement to be a sham mechanism designed to evade equal pay mandates, directing parity in remuneration. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0246",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : inter - state migrant laborers detained at a brick kiln due to alleged advance debt obligations filed for relief under the bonded labour system ( abolition ) act. district court directed immediate release, cancellation of alleged debts, and state rehabilitation assistance. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0247",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : factory workers required to work 12 - hour daily shifts without overtime payment petitioned under factories welfare rules. high court verified shift logbooks and ordered payment of double - rate statutory overtime wages. ruling : rejected.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0248",
+    "court_level": "High Court",
+    "decision": "Rejected",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : industrial unit management instituted sudden site closure without serving 60 days prior statutory notice to the labor commissioner. supreme court declared the lockout illegal and awarded full wage continuity during the closure period. ruling : partial.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0249",
+    "court_level": "Supreme Court",
+    "decision": "Partial",
+    "topic": "labour_rights"
+  },
+  {
+    "doc_id": "labour_rights",
+    "chunk_index": 0,
+    "text": "synthetic case : union office - bearers were target - transferred to remote sites immediately following the submission of a collective bargaining charter. district court held the transfers to be unfair labor practice intended to suppress union activities and issued stay orders. ruling : accepted.",
+    "source_file": "synthetic_case_examples_rag_1000.csv",
+    "case_id": "SYN_LAB_0250",
+    "court_level": "District Court",
+    "decision": "Accepted",
+    "topic": "labour_rights"
+  }
+]

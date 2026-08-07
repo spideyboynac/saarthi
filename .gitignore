@@ -9,16 +9,6 @@ env/
 ENV/
 .env
 
-# Data and FAISS Indices
-RAG/vector_store/
-*.index
-*.faiss
-*.csv
-*.json
-
-# Logs and databases
-*.log
-*.sqlite3
 
 # OS generated files
 .DS_Store
