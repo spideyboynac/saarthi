@@ -151,10 +151,10 @@ async def twilio_voice_webhook(request: Request):
 
         if action_code == 1:
             if lang == "hi":
-                response.say("Kripya apna sawal bole. Bolne ke baad 2 dabayein ya rukiye.", voice="Polly.Aditi", language="hi-IN")
+                response.say("Kripya apna sawal bole. Bolne ke baad hash dabayein ya kuch der rukiye.", voice="Polly.Aditi", language="hi-IN")
             else:
-                response.say("Please speak your legal question after the tone. Press 2 when done speaking or stay on the line.", voice="Polly.Aditi", language="en-IN")
-            response.record(action="/api/v1/twilio/voice", finish_on_key="1234567890*#", max_length=30)
+                response.say("Please speak your legal question after the tone. Press the pound key when done speaking or stay on the line.", voice="Polly.Aditi", language="en-IN")
+            response.record(action="/api/v1/twilio/voice", finish_on_key="#", max_length=30)
             return Response(content=str(response), media_type="application/xml")
 
         if action_code == 6:
