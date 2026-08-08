@@ -64,6 +64,8 @@ async def twilio_voice_webhook(request: Request):
                 auth = (os.getenv("TWILIO_ACCOUNT_SID", ""), os.getenv("TWILIO_AUTH_TOKEN", ""))
                 res = httpx.get(download_url, auth=auth if auth[0] else None, follow_redirects=True, timeout=10.0)
                 if res.status_code == 200:
+                    with open("debug_audio.wav", "wb") as f:
+                        f.write(res.content)
                     deepgram_lang = "hi" if lang == "hi" else "en-IN"
                     transcription = stt_service.transcribe_audio_deepgram(res.content, content_type="audio/wav", language=deepgram_lang)
                 else:
@@ -156,7 +158,10 @@ async def twilio_voice_webhook(request: Request):
             return Response(content=str(response), media_type="application/xml")
 
         if action_code == 6:
-            response.say("Playback stopped immediately.", voice="Polly.Aditi", language="hi-IN" if lang == "hi" else "en-IN")
+            # Clear language preference on stop/reset
+            if caller_phone in user_language_pref:
+                del user_language_pref[caller_phone]
+            response.say("Playback stopped and preferences reset.", voice="Polly.Aditi", language="hi-IN" if lang == "hi" else "en-IN")
             response.hangup()
             return Response(content=str(response), media_type="application/xml")
 
