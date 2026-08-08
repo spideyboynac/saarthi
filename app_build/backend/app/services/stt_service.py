@@ -31,7 +31,7 @@ class STTService:
             logger.error(f"[STT] Failed to decode Base64 audio: {e}")
             raise ValueError(f"Invalid Base64 audio data: {e}")
 
-    def transcribe_audio_deepgram(self, audio_bytes: bytes) -> str:
+    def transcribe_audio_deepgram(self, audio_bytes: bytes, content_type: str = "audio/wav", language: str = "en-IN") -> str:
         """
         Transcribes raw audio bytes into text using the Deepgram REST API.
         """
@@ -46,12 +46,12 @@ class STTService:
             logger.error("[STT] DEEPGRAM_API_KEY environment variable not set.")
             return "[STT: Deepgram API key missing]"
         
-        logger.info(f"[STT] Transcribing {byte_count} bytes using Deepgram...")
+        logger.info(f"[STT] Transcribing {byte_count} bytes using Deepgram (Language: {language})...")
         
-        url = "https://api.deepgram.com/v1/listen?model=nova-2&detect_language=true"
+        url = f"https://api.deepgram.com/v1/listen?model=nova-2&language={language}"
         headers = {
             "Authorization": f"Token {api_key}",
-            "Content-Type": "audio/webm"
+            "Content-Type": content_type
         }
 
         try:
@@ -64,7 +64,7 @@ class STTService:
             transcription = data.get("results", {}).get("channels", [{}])[0].get("alternatives", [{}])[0].get("transcript", "")
             
             if not transcription:
-                logger.warning("[STT] Deepgram returned empty transcription.")
+                logger.warning(f"[STT] Deepgram returned empty transcription. Raw response: {data}")
                 return "[STT: Could not understand audio]"
             
             logger.info(f"[STT] Transcription result: {transcription[:80]}...")

@@ -10,6 +10,7 @@ from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
 from app.config import settings
 from app.api.twilio_routes import router as twilio_router
+from app.api.sms_routes import router as sms_router
 from app.api.query_routes import router as query_router
 from app.services.stt_service import stt_service
 from app.services.tts_service import tts_service
@@ -35,6 +36,7 @@ app.add_middleware(
 
 # Include REST Routers
 app.include_router(twilio_router, prefix=settings.API_PREFIX)
+app.include_router(sms_router, prefix=settings.API_PREFIX)
 app.include_router(query_router, prefix=settings.API_PREFIX)
 
 # ============================================================
