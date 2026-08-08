@@ -1,0 +1,427 @@
+[
+  {
+    "idx": 1,
+    "id": "L1",
+    "domain": "Labour Rights",
+    "query": "What are the legal working hour limits and overtime compensation rules for factory workers in India?",
+    "rag_status": "sufficient",
+    "passages": 5,
+    "top_score": 3.3278,
+    "quality": "GOOD      — Relevant but partial match",
+    "top_source": "synthetic_case_examples_rag_1000.csv (labour_rights)",
+    "rag_ms": 18740.27,
+    "sources": [
+      "synthetic_case_examples_rag_1000.csv (labour_rights)",
+      "synthetic_case_examples_rag_1000.csv (labour_rights)",
+      "synthetic_case_examples_rag_1000.csv (labour_rights)"
+    ]
+  },
+  {
+    "idx": 2,
+    "id": "L2",
+    "domain": "Labour Rights",
+    "query": "What legal recourse does an employee have if an employer wrongfully terminates them without notice pay?",
+    "rag_status": "sufficient",
+    "passages": 5,
+    "top_score": 1.0468,
+    "quality": "WEAK      — Word-overlap only, likely low relevance",
+    "top_source": "synthetic_case_examples_rag_1000.csv (labour_rights)",
+    "rag_ms": 1656.97,
+    "sources": [
+      "synthetic_case_examples_rag_1000.csv (labour_rights)",
+      "synthetic_case_examples_rag_1000.csv (labour_rights)",
+      "synthetic_case_examples_rag_1000.csv (labour_rights)"
+    ]
+  },
+  {
+    "idx": 3,
+    "id": "L3",
+    "domain": "Labour Rights",
+    "query": "Are contract laborers entitled to equal pay for equal work under Indian labor law?",
+    "rag_status": "sufficient",
+    "passages": 5,
+    "top_score": 2.7105,
+    "quality": "GOOD      — Relevant but partial match",
+    "top_source": "synthetic_case_examples_rag_1000.csv (labour_rights)",
+    "rag_ms": 1692.06,
+    "sources": [
+      "synthetic_case_examples_rag_1000.csv (labour_rights)",
+      "synthetic_case_examples_rag_1000.csv (labour_rights)",
+      "synthetic_case_examples_rag_1000.csv (labour_rights)"
+    ]
+  },
+  {
+    "idx": 4,
+    "id": "L4",
+    "domain": "Labour Rights",
+    "query": "What maternity leave benefits are mandated for female employees under the Maternity Benefit Act?",
+    "rag_status": "sufficient",
+    "passages": 5,
+    "top_score": 4.8119,
+    "quality": "GOOD      — Relevant but partial match",
+    "top_source": "synthetic_case_examples_rag_1000.csv (labour_rights)",
+    "rag_ms": 1664.09,
+    "sources": [
+      "synthetic_case_examples_rag_1000.csv (labour_rights)",
+      "synthetic_case_examples_rag_1000.csv (labour_rights)",
+      "synthetic_case_examples_rag_1000.csv (labour_rights)"
+    ]
+  },
+  {
+    "idx": 5,
+    "id": "L5",
+    "domain": "Labour Rights",
+    "query": "How can an unorganized worker register and file a complaint for unpaid minimum wages?",
+    "rag_status": "needs_clarification",
+    "passages": 5,
+    "top_score": -1.1541,
+    "quality": "POOR      — Very low relevance",
+    "top_source": "synthetic_case_examples_rag_1000.csv (labour_rights)",
+    "rag_ms": 1667.69,
+    "sources": [
+      "synthetic_case_examples_rag_1000.csv (labour_rights)",
+      "synthetic_case_examples_rag_1000.csv (labour_rights)",
+      "synthetic_case_examples_rag_1000.csv (labour_rights)"
+    ]
+  },
+  {
+    "idx": 6,
+    "id": "C1",
+    "domain": "Crime",
+    "query": "What is the difference between cognizable and non-cognizable offenses under BNSS?",
+    "rag_status": "needs_clarification",
+    "passages": 5,
+    "top_score": -1.4205,
+    "quality": "POOR      — Very low relevance",
+    "top_source": "Law and Justice.pdf (law_and_justice)",
+    "rag_ms": 1679.37,
+    "sources": [
+      "Law and Justice.pdf (law_and_justice)",
+      "Criminal LAw.pdf (criminal_law)",
+      "Law and Justice.pdf (law_and_justice)"
+    ]
+  },
+  {
+    "idx": 7,
+    "id": "C2",
+    "domain": "Crime",
+    "query": "What are the legal conditions and procedure for obtaining anticipatory bail?",
+    "rag_status": "needs_clarification",
+    "passages": 5,
+    "top_score": -3.2698,
+    "quality": "FAIL      — No match / off-domain",
+    "top_source": "constitution.pdf (constitution)",
+    "rag_ms": 1641.79,
+    "sources": [
+      "constitution.pdf (constitution)",
+      "Law and Justice.pdf (law_and_justice)",
+      "NALSA.pdf (nalsa)"
+    ]
+  },
+  {
+    "idx": 8,
+    "id": "C3",
+    "domain": "Crime",
+    "query": "What constitutes cyber fraud under the IT Act and how can a victim report it?",
+    "rag_status": "needs_clarification",
+    "passages": 5,
+    "top_score": -5.9613,
+    "quality": "FAIL      — No match / off-domain",
+    "top_source": "Criminal LAw.pdf (criminal_law)",
+    "rag_ms": 1652.28,
+    "sources": [
+      "Criminal LAw.pdf (criminal_law)",
+      "Criminal LAw.pdf (criminal_law)",
+      "Law and Justice.pdf (law_and_justice)"
+    ]
+  },
+  {
+    "idx": 9,
+    "id": "C4",
+    "domain": "Crime",
+    "query": "What is the punishment for criminal breach of trust under the Indian legal code?",
+    "rag_status": "sufficient",
+    "passages": 5,
+    "top_score": 6.5781,
+    "quality": "EXCELLENT — Highly relevant legal passage",
+    "top_source": "Law and Justice.pdf (law_and_justice)",
+    "rag_ms": 1628.91,
+    "sources": [
+      "Law and Justice.pdf (law_and_justice)",
+      "Criminal LAw.pdf (criminal_law)",
+      "Criminal LAw.pdf (criminal_law)"
+    ]
+  },
+  {
+    "idx": 10,
+    "id": "C5",
+    "domain": "Crime",
+    "query": "What rights does an arrested person have during police interrogation?",
+    "rag_status": "sufficient",
+    "passages": 5,
+    "top_score": 4.2088,
+    "quality": "GOOD      — Relevant but partial match",
+    "top_source": "NALSA.pdf (nalsa)",
+    "rag_ms": 1678.78,
+    "sources": [
+      "NALSA.pdf (nalsa)",
+      "NALSA.pdf (nalsa)",
+      "constitution.pdf (constitution)"
+    ]
+  },
+  {
+    "idx": 11,
+    "id": "W1",
+    "domain": "Women Violence & Marriage",
+    "query": "What legal remedies are available to a woman facing domestic violence under PWDVA?",
+    "rag_status": "needs_clarification",
+    "passages": 5,
+    "top_score": -3.3101,
+    "quality": "FAIL      — No match / off-domain",
+    "top_source": "synthetic_case_examples_rag_1000.csv (women_violence_marriag",
+    "rag_ms": 1634.81,
+    "sources": [
+      "synthetic_case_examples_rag_1000.csv (women_violence_marriage)",
+      "synthetic_case_examples_rag_1000.csv (women_violence_marriage)",
+      "synthetic_case_examples_rag_1000.csv (women_violence_marriage)"
+    ]
+  },
+  {
+    "idx": 12,
+    "id": "W2",
+    "domain": "Women Violence & Marriage",
+    "query": "What are the legal grounds for divorce under the Hindu Marriage Act?",
+    "rag_status": "needs_clarification",
+    "passages": 5,
+    "top_score": -3.4576,
+    "quality": "FAIL      — No match / off-domain",
+    "top_source": "Criminal LAw.pdf (criminal_law)",
+    "rag_ms": 1641.63,
+    "sources": [
+      "Criminal LAw.pdf (criminal_law)",
+      "synthetic_case_examples_rag_1000.csv (land_dispute)",
+      "synthetic_case_examples_rag_1000.csv (land_dispute)"
+    ]
+  },
+  {
+    "idx": 13,
+    "id": "W3",
+    "domain": "Women Violence & Marriage",
+    "query": "What constitutes dowry harassment under Section 498A IPC and what are the penalties?",
+    "rag_status": "sufficient",
+    "passages": 5,
+    "top_score": 0.8444,
+    "quality": "WEAK      — Word-overlap only, likely low relevance",
+    "top_source": "Criminal LAw.pdf (criminal_law)",
+    "rag_ms": 1686.14,
+    "sources": [
+      "Criminal LAw.pdf (criminal_law)",
+      "Law and Justice.pdf (law_and_justice)",
+      "Criminal LAw.pdf (criminal_law)"
+    ]
+  },
+  {
+    "idx": 14,
+    "id": "W4",
+    "domain": "Women Violence & Marriage",
+    "query": "What protection does the POSH Act provide to women against workplace sexual harassment?",
+    "rag_status": "sufficient",
+    "passages": 5,
+    "top_score": 0.9291,
+    "quality": "WEAK      — Word-overlap only, likely low relevance",
+    "top_source": "synthetic_case_examples_rag_1000.csv (women_violence_marriag",
+    "rag_ms": 1658.01,
+    "sources": [
+      "synthetic_case_examples_rag_1000.csv (women_violence_marriage)",
+      "synthetic_case_examples_rag_1000.csv (women_violence_marriage)",
+      "synthetic_case_examples_rag_1000.csv (women_violence_marriage)"
+    ]
+  },
+  {
+    "idx": 15,
+    "id": "W5",
+    "domain": "Women Violence & Marriage",
+    "query": "Can a married woman claim interim maintenance from her husband under Section 125 CrPC?",
+    "rag_status": "sufficient",
+    "passages": 5,
+    "top_score": 2.9721,
+    "quality": "GOOD      — Relevant but partial match",
+    "top_source": "synthetic_case_examples_rag_1000.csv (women_violence_marriag",
+    "rag_ms": 1677.41,
+    "sources": [
+      "synthetic_case_examples_rag_1000.csv (women_violence_marriage)",
+      "synthetic_case_examples_rag_1000.csv (women_violence_marriage)",
+      "synthetic_case_examples_rag_1000.csv (women_violence_marriage)"
+    ]
+  },
+  {
+    "idx": 16,
+    "id": "LD1",
+    "domain": "Land Dispute",
+    "query": "How can a property owner resolve an illegal encroachment dispute on agricultural land?",
+    "rag_status": "needs_clarification",
+    "passages": 5,
+    "top_score": -4.5285,
+    "quality": "FAIL      — No match / off-domain",
+    "top_source": "constitution.pdf (constitution)",
+    "rag_ms": 1665.74,
+    "sources": [
+      "constitution.pdf (constitution)",
+      "Law and Justice.pdf (law_and_justice)",
+      "Criminal LAw.pdf (criminal_law)"
+    ]
+  },
+  {
+    "idx": 17,
+    "id": "LD2",
+    "domain": "Land Dispute",
+    "query": "What documents are mandatory to verify clear title before purchasing ancestral land?",
+    "rag_status": "needs_clarification",
+    "passages": 5,
+    "top_score": -1.1783,
+    "quality": "POOR      — Very low relevance",
+    "top_source": "synthetic_case_examples_rag_1000.csv (land_dispute)",
+    "rag_ms": 1681.65,
+    "sources": [
+      "synthetic_case_examples_rag_1000.csv (land_dispute)",
+      "synthetic_case_examples_rag_1000.csv (land_dispute)",
+      "synthetic_case_examples_rag_1000.csv (land_dispute)"
+    ]
+  },
+  {
+    "idx": 18,
+    "id": "LD3",
+    "domain": "Land Dispute",
+    "query": "What is adverse possession under Indian property law and what is the statutory time limit?",
+    "rag_status": "needs_clarification",
+    "passages": 5,
+    "top_score": -1.6261,
+    "quality": "POOR      — Very low relevance",
+    "top_source": "constitution.pdf (constitution)",
+    "rag_ms": 1647.0,
+    "sources": [
+      "constitution.pdf (constitution)",
+      "synthetic_case_examples_rag_1000.csv (land_dispute)",
+      "synthetic_case_examples_rag_1000.csv (land_dispute)"
+    ]
+  },
+  {
+    "idx": 19,
+    "id": "LD4",
+    "domain": "Land Dispute",
+    "query": "How are land inheritance and succession rights determined for daughters under the Hindu Succession Amendment Act?",
+    "rag_status": "sufficient",
+    "passages": 5,
+    "top_score": 2.9943,
+    "quality": "GOOD      — Relevant but partial match",
+    "top_source": "synthetic_case_examples_rag_1000.csv (land_dispute)",
+    "rag_ms": 1693.96,
+    "sources": [
+      "synthetic_case_examples_rag_1000.csv (land_dispute)",
+      "synthetic_case_examples_rag_1000.csv (land_dispute)",
+      "synthetic_case_examples_rag_1000.csv (land_dispute)"
+    ]
+  },
+  {
+    "idx": 20,
+    "id": "LD5",
+    "domain": "Land Dispute",
+    "query": "What is the procedure for filing a civil suit for partition of joint family property?",
+    "rag_status": "sufficient",
+    "passages": 5,
+    "top_score": 2.8103,
+    "quality": "GOOD      — Relevant but partial match",
+    "top_source": "synthetic_case_examples_rag_1000.csv (land_dispute)",
+    "rag_ms": 1687.95,
+    "sources": [
+      "synthetic_case_examples_rag_1000.csv (land_dispute)",
+      "synthetic_case_examples_rag_1000.csv (land_dispute)",
+      "synthetic_case_examples_rag_1000.csv (land_dispute)"
+    ]
+  },
+  {
+    "idx": 21,
+    "id": "A1",
+    "domain": "Anonymous / General",
+    "query": "How do I renew my driver's license online in India?",
+    "rag_status": "needs_clarification",
+    "passages": 5,
+    "top_score": -7.5082,
+    "quality": "FAIL      — No match / off-domain",
+    "top_source": "constitution.pdf (constitution)",
+    "rag_ms": 1682.73,
+    "sources": [
+      "constitution.pdf (constitution)",
+      "constitution.pdf (constitution)",
+      "constitution.pdf (constitution)"
+    ]
+  },
+  {
+    "idx": 22,
+    "id": "A2",
+    "domain": "Anonymous / General",
+    "query": "What are the steps to register a small business as an MSME?",
+    "rag_status": "needs_clarification",
+    "passages": 5,
+    "top_score": -9.9922,
+    "quality": "FAIL      — No match / off-domain",
+    "top_source": "constitution.pdf (constitution)",
+    "rag_ms": 1682.09,
+    "sources": [
+      "constitution.pdf (constitution)",
+      "constitution.pdf (constitution)",
+      "NALSA.pdf (nalsa)"
+    ]
+  },
+  {
+    "idx": 23,
+    "id": "A3",
+    "domain": "Anonymous / General",
+    "query": "Can a landlord increase residential rent without prior notice?",
+    "rag_status": "needs_clarification",
+    "passages": 5,
+    "top_score": -8.0908,
+    "quality": "FAIL      — No match / off-domain",
+    "top_source": "synthetic_case_examples_rag_1000.csv (land_dispute)",
+    "rag_ms": 1614.82,
+    "sources": [
+      "synthetic_case_examples_rag_1000.csv (land_dispute)",
+      "synthetic_case_examples_rag_1000.csv (land_dispute)",
+      "synthetic_case_examples_rag_1000.csv (land_dispute)"
+    ]
+  },
+  {
+    "idx": 24,
+    "id": "A4",
+    "domain": "Anonymous / General",
+    "query": "How do I file an RTI application to check government scheme status?",
+    "rag_status": "needs_clarification",
+    "passages": 5,
+    "top_score": -7.7965,
+    "quality": "FAIL      — No match / off-domain",
+    "top_source": "NALSA.pdf (nalsa)",
+    "rag_ms": 1686.73,
+    "sources": [
+      "NALSA.pdf (nalsa)",
+      "NALSA.pdf (nalsa)",
+      "NALSA.pdf (nalsa)"
+    ]
+  },
+  {
+    "idx": 25,
+    "id": "A5",
+    "domain": "Anonymous / General",
+    "query": "What is the process to get a passport reissued if it expires?",
+    "rag_status": "needs_clarification",
+    "passages": 5,
+    "top_score": -5.9222,
+    "quality": "FAIL      — No match / off-domain",
+    "top_source": "constitution.pdf (constitution)",
+    "rag_ms": 1673.8,
+    "sources": [
+      "constitution.pdf (constitution)",
+      "constitution.pdf (constitution)",
+      "Law and Justice.pdf (law_and_justice)"
+    ]
+  }
+]

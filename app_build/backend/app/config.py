@@ -12,7 +12,7 @@ class Settings:
     CLAUDE_API_URL: str = os.getenv("CLAUDE_API_URL", "https://api.anthropic.com/v1/messages")
     CLAUDE_API_KEY: str = os.getenv("ANTHROPIC_API_KEY", "")
     OLLAMA_BASE_URL: str = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
-    OLLAMA_MODEL: str = os.getenv("OLLAMA_MODEL", "llama3.1:8b-instruct-q4_K_M")
+    OLLAMA_MODEL: str = os.getenv("OLLAMA_MODEL", "llama3.1:latest")
     
     # Force Offline Mode flag (for testing offline fallback)
     FORCE_OFFLINE: bool = os.getenv("FORCE_OFFLINE", "false").lower() == "true"

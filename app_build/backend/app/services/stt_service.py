@@ -72,10 +72,10 @@ class STTService:
             
         except httpx.HTTPStatusError as e:
             logger.error(f"[STT] Deepgram API returned status {e.response.status_code}: {e.response.text}")
-            return "[STT: Transcription service error]"
+            raise RuntimeError(f"STT Deepgram API Error: {e.response.status_code}")
         except Exception as e:
             logger.error(f"[STT] Deepgram API request failed: {e}")
-            return "[STT: Transcription request failed]"
+            raise RuntimeError(f"STT Deepgram request failed: {e}")
 
     def process_audio_b64(self, audio_b64: str) -> str:
         """

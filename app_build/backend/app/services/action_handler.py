@@ -50,69 +50,64 @@ class ActionHandlerEngine:
                     "Hardcoded mock queries are forbidden (v3.0 spec §3.1)."
                 )
 
-            # ── STEP 2: IndicTrans2 — Native → English (pass-through in hackathon build) ──
-            print("\n--- [STEP 2] IndicTrans2 — Native language → English (pass-through) ---")
+            # -- STEP 2: IndicTrans2 - Native -> English (pass-through in hackathon build) --
+            print("\n--- [STEP 2] IndicTrans2 - Native language -> English (pass-through) ---")
             print(f"    query: '{query[:120]}'")
             # Hackathon build: Deepgram detect_language handles normalisation.
             # IndicTrans2 full integration is the production milestone.
             english_query = query
             print("--- [STEP 2] SUCCESS (pass-through) ---")
 
-            # ── STEP 3: Dual-RAG Retrieval ──────────────────────────────────────────────
-            print("\n--- [STEP 3] Dual-RAG Retrieval (Legal KB + Case KB → Top 5) ---")
+            # -- STEP 3: Dual-RAG Retrieval ----------------------------------------------
+            print("\n--- [STEP 3] Dual-RAG Retrieval (Legal KB + Case KB -> Top 5) ---")
             print(f"    querying vector store with: '{english_query[:120]}'")
-            rag_req = RAGRequest(query=english_query, language="en")
-            rag_res = dual_rag_pipeline.retrieve_context(rag_req)
-            print(f"--- [STEP 3] SUCCESS — status: {rag_res.status} | passages: {len(rag_res.passages)} | confidence: {rag_res.confidence:.3f}")
-            for i, p in enumerate(rag_res.passages):
-                print(f"    passage[{i}]: score={p.score:.3f} source='{p.source_citation}' text='{p.text[:60]}...'")
+            
+            rag_res = None
+            try:
+                rag_req = RAGRequest(query=english_query, language="en")
+                rag_res = dual_rag_pipeline.retrieve_context(rag_req)
+                print(f"--- [STEP 3] RAG execution finished - status: {rag_res.status} | passages: {len(rag_res.passages)} | confidence: {rag_res.confidence:.3f}")
+            except Exception as e:
+                print(f"--- [STEP 3] WARNING: RAG Retrieval failed ({e}) - falling back to Direct LLM")
+                rag_res = None
 
-            # Extract source citations for session storage and response
-            sources = [p.source_citation for p in rag_res.passages]
-
-            # ── STEP 4: LLM Generation ──────────────────────────────────────────────────
-            print("\n--- [STEP 4] LLM Generation (Claude / Ollama) ---")
-            if rag_res.status == "needs_clarification":
-                answer_text = (
-                    "I found some relevant information, but I need to be sure. "
-                    "Could you clarify what exactly happened or who was involved?"
-                )
-                llm_route = "NONE (SOCRATIC_FALLBACK)"
-                print(f"--- [STEP 4] SOCRATIC FALLBACK (RAG confidence insufficient)")
-
-            elif rag_res.status == "abstain":
-                answer_text = (
-                    "I'm sorry, but I do not have enough specific legal context to "
-                    "answer that safely. I am transferring you to a human legal aid "
-                    "volunteer."
-                )
-                llm_route = "NONE (HUMAN_HANDOFF)"
-                print(f"--- [STEP 4] HUMAN HANDOFF (RAG returned abstain)")
-
-            else:
-                # status == "sufficient" — generate grounded LLM answer
+            # -- STEP 4: LLM Generation (Ollama Llama 3.1) --------------------------------
+            print("\n--- [STEP 4] LLM Generation (Ollama Llama 3.1) ---")
+            
+            # Check if RAG provided usable context passages
+            if rag_res and rag_res.status == "sufficient" and rag_res.passages:
+                print("--- [STEP 4] Executing Ollama LLM with Grounded RAG Context + General Knowledge Fallback ---")
                 context_blocks = "\n".join(
                     [f"[{p.source_citation}] {p.text}" for p in rag_res.passages]
                 )
-
                 system_prompt = (
-                    f"You are Nyaya-Dhwani, a legal literacy conversational assistant. "
-                    f"Ground your answer STRICTLY in the retrieved context:\n{context_blocks}\n"
-                    f"You must answer ONLY using the provided context. "
-                    f"Cite your claims using the [Source Document] names provided. "
-                    f"Use descriptive language only ('the law states X', never 'you should X'). "
-                    f"Target Literacy Tier: {session.last_answer_tier}."
+                    f"You are Nyaya-Dhwani, an Indian legal literacy assistant.\n"
+                    f"Your objective is to explain Indian laws and legal literacy concepts clearly and directly.\n\n"
+                    f"Retrieved context for reference:\n{context_blocks}\n\n"
+                    f"INSTRUCTIONS:\n"
+                    f"1. Answer the user's question directly with clear legal facts.\n"
+                    f"2. Use the retrieved context if relevant, but rely on your full legal knowledge for specific sections and penalties (such as BNS Section 303 for theft: up to 3 years imprisonment or fine).\n"
+                    f"3. Never refuse to answer, never say 'I cannot provide information', and never state 'the context does not mention'. Always give the legal answer."
                 )
-
                 prompt = f"User Question: {english_query}\nProvide a clear, legally accurate answer."
-                print(f"    sending prompt to LLM ({len(prompt)} chars prompt, {len(system_prompt)} chars system)...")
-                answer_text, llm_route = hybrid_router.generate_llm_response(
-                    prompt, system_prompt
+                sources = [p.source_citation for p in rag_res.passages]
+                answer_text, llm_route = hybrid_router.generate_llm_response(prompt, system_prompt)
+            else:
+                # FALLBACK RULE: If RAG ain't working or returned no passages, fallback to using ONLY the LLM (NO RAG NOTHING)
+                print("--- [STEP 4] RAG UN-AVAILABLE / NO USABLE MATCH -> FALLBACK TO DIRECT OLLAMA LLM (NO RAG) ---")
+                system_prompt = (
+                    f"You are Nyaya-Dhwani, an Indian legal literacy assistant. "
+                    f"Explain Indian laws, rights, and legal procedures directly and clearly using your general legal knowledge."
                 )
-                print(f"--- [STEP 4] SUCCESS — route: {llm_route} | answer: '{answer_text[:100]}'")
+                prompt = f"User Question: {english_query}\nProvide a clear, helpful legal answer."
+                sources = []
+                answer_text, raw_route = hybrid_router.generate_llm_response(prompt, system_prompt)
+                llm_route = f"{raw_route}_DIRECT_LLM_FALLBACK"
 
-            # ── STEP 5: IndicTrans2 — English → Native (pass-through in hackathon build) ──
-            print("\n--- [STEP 5] IndicTrans2 — English → Native language (pass-through) ---")
+            print(f"--- [STEP 4] SUCCESS - route: {llm_route} | answer: '{answer_text[:100]}'")
+
+            # -- STEP 5: IndicTrans2 - English -> Native (pass-through in hackathon build) --
+            print("\n--- [STEP 5] IndicTrans2 - English -> Native language (pass-through) ---")
             # Hackathon build: response sent in English; full IndicTrans2 is production milestone.
             print(f"--- [STEP 5] SUCCESS (pass-through) | final answer: '{answer_text[:100]}'")
 
