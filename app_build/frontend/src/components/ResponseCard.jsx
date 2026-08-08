@@ -24,7 +24,7 @@ export default function ResponseCard({ response, onSelectFollowup }) {
   } = response;
 
   const displayQuestion = question || user_question;
-  const displayAnswer = answer || answer_text;
+  const displayAnswer = answer || answer_text || response.text;
   const displaySources = (sources && sources.length > 0) ? sources : (citations || []);
 
   return (

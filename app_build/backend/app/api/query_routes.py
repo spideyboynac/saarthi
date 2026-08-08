@@ -30,11 +30,21 @@ def execute_action(req: ActionRequest):
     if req.action_code not in range(1, 7):
         raise HTTPException(status_code=400, detail="Action code must be between 1 and 6.")
     
-    return action_handler_engine.process_action(
+    res = action_handler_engine.process_action(
         phone_identifier=req.phone_hash,
         action_code=req.action_code,
         payload=req.payload
     )
+
+    # Generate TTS audio for REST responses (Actions 3, 4, 5, or Followups)
+    if res.answer_text and not res.audio_b64:
+        try:
+            from app.services.tts_service import tts_service
+            res.audio_b64 = tts_service.generate_tts_audio(res.answer_text)
+        except Exception:
+            pass # SpeechSynthesis browser fallback will handle if ElevenLabs fails
+
+    return res
 
 @router.get("/session/{phone_identifier}")
 def get_session_info(phone_identifier: str):
@@ -47,6 +57,8 @@ def get_session_info(phone_identifier: str):
             "phone_hash": session.phone_hash,
             "last_answer_text": session.last_answer_text,
             "last_answer_tier": session.last_answer_tier,
+            "last_question": session.last_question,
+            "last_sources": session.last_sources or [],
             "call_active": session.call_active
         },
         "llm_route": "CLAUDE_CLOUD" if hybrid_router.check_internet_availability() else "OLLAMA_LOCAL"

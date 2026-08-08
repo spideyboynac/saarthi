@@ -38,10 +38,12 @@ export default function App() {
           if (data.call_session.last_answer_text) {
             setCurrentResponse({
               action_name: "Active Call Session",
+              question: data.call_session.last_question,
               answer_text: data.call_session.last_answer_text,
+              sources: data.call_session.last_sources || [],
               literacy_tier: data.call_session.last_answer_tier,
               rag_executed: false,
-              llm_route: data.llm_route || 'CLAUDE_CLOUD'
+              llm_route: data.llm_route || 'OLLAMA_LOCAL'
             });
           }
         }
@@ -143,7 +145,16 @@ export default function App() {
         try {
           // Send over WebSocket via useWebSocket hook
           const res = await sendAudio(phoneHash, audioBase64);
-          setCurrentResponse(res);
+          setCurrentResponse({
+            action_name: res.action_name || "New Question / Input Over",
+            question: res.question,
+            answer_text: res.text || res.answer_text,
+            sources: res.sources || [],
+            literacy_tier: res.literacy_tier,
+            rag_executed: res.rag_executed,
+            llm_route: res.llm_route,
+            socratic_followups: res.socratic_followups
+          });
           setLiteracyTier(res.literacy_tier);
           setLlmRoute(res.llm_route);
           setIsPlaying(true);
@@ -202,7 +213,7 @@ export default function App() {
       return;
     }
 
-    // Actions 3, 4, 5: REST API (no audio involved)
+    // Actions 3, 4, 5: REST API (no audio involved in request, but audio returned in response)
     setIsRecording(false);
     setIsPlaying(true);
     setNativeTtsActive(false);
@@ -213,7 +224,43 @@ export default function App() {
       if (res.llm_route !== "NONE" && !res.llm_route.includes("REPLAY")) {
         setLlmRoute(res.llm_route);
       }
+
+      // Play audio response if returned by backend (ElevenLabs b64 or SpeechSynthesis fallback)
+      if (res.audio_b64 && res.audio_b64.length > 0) {
+        try {
+          window.speechSynthesis.cancel();
+          const audio = new Audio('data:audio/mp3;base64,' + res.audio_b64);
+          audio.onended = () => setIsPlaying(false);
+          audio.onerror = () => setIsPlaying(false);
+          await audio.play();
+        } catch (audioErr) {
+          console.error('[App.jsx] Audio playback error:', audioErr);
+          setIsPlaying(false);
+        }
+      } else if (res.answer_text) {
+        try {
+          window.speechSynthesis.cancel();
+          setNativeTtsActive(true);
+          const utterance = new SpeechSynthesisUtterance(res.answer_text);
+          utterance.lang = 'en-IN';
+          utterance.onend = () => {
+            setIsPlaying(false);
+            setNativeTtsActive(false);
+          };
+          utterance.onerror = () => {
+            setIsPlaying(false);
+            setNativeTtsActive(false);
+          };
+          window.speechSynthesis.speak(utterance);
+        } catch (speechErr) {
+          console.error('[App.jsx] SpeechSynthesis error:', speechErr);
+          setIsPlaying(false);
+        }
+      } else {
+        setIsPlaying(false);
+      }
     } catch (err) {
+      setIsPlaying(false);
       setErrorMessage(`Action failed: ${err.message}`);
     }
   };
@@ -227,7 +274,43 @@ export default function App() {
       setCurrentResponse(res);
       setLiteracyTier(res.literacy_tier);
       setLlmRoute(res.llm_route);
+
+      // Play audio response for selected follow-up question
+      if (res.audio_b64 && res.audio_b64.length > 0) {
+        try {
+          window.speechSynthesis.cancel();
+          const audio = new Audio('data:audio/mp3;base64,' + res.audio_b64);
+          audio.onended = () => setIsPlaying(false);
+          audio.onerror = () => setIsPlaying(false);
+          await audio.play();
+        } catch (audioErr) {
+          console.error('[App.jsx] Audio playback error:', audioErr);
+          setIsPlaying(false);
+        }
+      } else if (res.answer_text) {
+        try {
+          window.speechSynthesis.cancel();
+          setNativeTtsActive(true);
+          const utterance = new SpeechSynthesisUtterance(res.answer_text);
+          utterance.lang = 'en-IN';
+          utterance.onend = () => {
+            setIsPlaying(false);
+            setNativeTtsActive(false);
+          };
+          utterance.onerror = () => {
+            setIsPlaying(false);
+            setNativeTtsActive(false);
+          };
+          window.speechSynthesis.speak(utterance);
+        } catch (speechErr) {
+          console.error('[App.jsx] SpeechSynthesis error:', speechErr);
+          setIsPlaying(false);
+        }
+      } else {
+        setIsPlaying(false);
+      }
     } catch (err) {
+      setIsPlaying(false);
       setErrorMessage(`Follow-up failed: ${err.message}`);
     }
   };

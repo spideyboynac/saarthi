@@ -201,21 +201,36 @@ class ActionHandlerEngine:
             )
 
             # Narrow LLM prompt — operates ONLY on last_answer_text
-            system_prompt = "You are a Socratic legal guide."
-            prompt = (
-                f"Suggest 2-3 natural follow-up questions a caller might ask next, "
-                f"based only on this advice:\n\n{last_text}"
+            system_prompt = (
+                "You are a Socratic legal guide. Generate 2 to 3 concise, natural follow-up questions "
+                "that a caller might ask next based on the advice provided. "
+                "Output each question on a separate line. Do not include introductory text or numbering."
             )
+            prompt = f"Caller advice:\n\n{last_text}\n\nList 2-3 concise follow-up questions:"
 
             llm_text, llm_route = hybrid_router.generate_llm_response(prompt, system_prompt)
 
-            # Parse LLM output into a list of follow-up question strings
-            socratic_questions = [q.strip() for q in llm_text.split("\n") if q.strip()]
+            # Parse LLM output into a list of follow-up question strings (stripping leading numbers/bullets)
+            raw_lines = [q.strip() for q in llm_text.split("\n") if q.strip()]
+            socratic_questions = []
+            for line in raw_lines:
+                # Strip leading numbering like "1. ", "1)", "- ", etc.
+                cleaned = line.lstrip("0123456789.-*•) ").strip()
+                if cleaned and len(cleaned) > 5:
+                    socratic_questions.append(cleaned)
+
+            if not socratic_questions:
+                socratic_questions = [
+                    "What legal evidence should I collect for this case?",
+                    "How can I file a formal complaint with DLSA?"
+                ]
+
+            readable_answer = "Here are recommended follow-up questions:\n" + "\n".join([f"• {q}" for q in socratic_questions])
 
             return ActionResponse(
                 action_code=5,
                 action_name="Recommend Follow-Ups",
-                answer_text=llm_text,
+                answer_text=readable_answer,
                 literacy_tier=session.last_answer_tier,
                 rag_executed=False,   # STRICT RAG BYPASS
                 llm_route=llm_route,

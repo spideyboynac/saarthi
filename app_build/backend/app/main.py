@@ -119,6 +119,7 @@ async def websocket_audio_endpoint(websocket: WebSocket):
                     await websocket.send_json({
                         "action": "AUDIO_RESPONSE",
                         "audio_b64": audio_b64_response,
+                        "question": transcription,
                         "text": response.answer_text,
                         "sources": response.sources or [],
                         "literacy_tier": response.literacy_tier,
@@ -135,6 +136,7 @@ async def websocket_audio_endpoint(websocket: WebSocket):
                     # Frontend must invoke window.speechSynthesis.speak() on this message.
                     await websocket.send_json({
                         "action": "TTS_FALLBACK",
+                        "question": transcription,
                         "text": response.answer_text,
                         "sources": response.sources or [],
                         "literacy_tier": response.literacy_tier,
